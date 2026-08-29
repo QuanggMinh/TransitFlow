@@ -1,0 +1,5292 @@
+{
+  "version": 1,
+  "exportedAt": "2026-08-17T15:09:02.685Z",
+  "source": "transitflow-canonical",
+  "routes": [
+    {
+      "code": "01",
+      "name": "Tuyến 01 - [01] Bến xe Gia Lâm - Bến xe Yên Nghĩa",
+      "color": "#E63946",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:00",
+      "frequency": 15,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1670",
+          "name": "(A) BX Gia Lâm",
+          "address": "Quảng trường BX Gia Lâm",
+          "lat": 21.048159,
+          "lng": 105.878495
+        },
+        {
+          "sourceKey": "busmap:hn:station:550",
+          "name": "549 Nguyễn Văn Cừ",
+          "address": "549 Nguyễn Văn Cừ (cột trước)",
+          "lat": 21.0497,
+          "lng": 105.883467
+        },
+        {
+          "sourceKey": "busmap:hn:station:552",
+          "name": "Trường THPT Nguyễn Gia Thiều",
+          "address": "Cty Cầu 5 Thăng Long - 307 Nguyễn Văn Cừ",
+          "lat": 21.04555,
+          "lng": 105.875283
+        },
+        {
+          "sourceKey": "busmap:hn:station:553",
+          "name": "Trường tiểu học Ái Mộ - 135B Nguyễn Văn Cừ",
+          "address": "135 Nguyễn Văn Cừ",
+          "lat": 21.042352,
+          "lng": 105.870446
+        },
+        {
+          "sourceKey": "busmap:hn:station:868",
+          "name": "Điểm trung chuyển Long Biên (E3.1)",
+          "address": "E3.1 Điểm trung chuyển Long Biên",
+          "lat": 21.04108800302518,
+          "lng": 105.84964513778688
+        },
+        {
+          "sourceKey": "busmap:hn:station:185",
+          "name": "50 Hàng Cót",
+          "address": "50 Hàng Cót",
+          "lat": 21.0372,
+          "lng": 105.847017
+        },
+        {
+          "sourceKey": "busmap:hn:station:186",
+          "name": "28 Đường Thành",
+          "address": "28 Đường Thành",
+          "lat": 21.031052,
+          "lng": 105.847104
+        },
+        {
+          "sourceKey": "busmap:hn:station:824",
+          "name": "Bệnh viện Phụ sản TW",
+          "address": "Đối diện số 4 Triệu Quốc Đạt",
+          "lat": 21.0266,
+          "lng": 105.847617
+        },
+        {
+          "sourceKey": "busmap:hn:station:181",
+          "name": "Bệnh viện Phụ sản Trung ương",
+          "address": "Đối diện tháp Hà Nội - HBT (cạnh 56 HBT)",
+          "lat": 21.026183,
+          "lng": 105.846402
+        },
+        {
+          "sourceKey": "busmap:hn:station:325",
+          "name": "Tổng công ty Đường sắt Việt Nam",
+          "address": "116 Lê Duẩn",
+          "lat": 21.025549,
+          "lng": 105.84142
+        },
+        {
+          "sourceKey": "busmap:hn:station:326",
+          "name": "Ga Hà Nội",
+          "address": "120 Lê Duẩn",
+          "lat": 21.023285,
+          "lng": 105.841429
+        },
+        {
+          "sourceKey": "busmap:hn:station:253",
+          "name": "46 Khâm Thiên",
+          "address": "Đối diện 71 Khâm Thiên",
+          "lat": 21.01905176375504,
+          "lng": 105.83887306000096
+        },
+        {
+          "sourceKey": "busmap:hn:station:254",
+          "name": "274-276 Khâm Thiên",
+          "address": "274-276 Khâm Thiên",
+          "lat": 21.019363,
+          "lng": 105.834084
+        },
+        {
+          "sourceKey": "busmap:hn:station:520",
+          "name": "142-144 Nguyễn Lương Bằng",
+          "address": "142-144 Nguyễn Lương Bằng",
+          "lat": 21.01581,
+          "lng": 105.828275
+        },
+        {
+          "sourceKey": "busmap:hn:station:667",
+          "name": "Gò Đống Đa",
+          "address": "Tây Sơn",
+          "lat": 21.0111,
+          "lng": 105.825333333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:668",
+          "name": "290 Tây Sơn",
+          "address": "290 Tây Sơn",
+          "lat": 21.0071333333333,
+          "lng": 105.823133333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:533",
+          "name": "Số 108 Nguyễn Trãi",
+          "address": "Số 108 Nguyễn Trãi",
+          "lat": 20.999917,
+          "lng": 105.815233
+        },
+        {
+          "sourceKey": "busmap:hn:station:4423",
+          "name": "Chợ Thượng Đình, nguyễn trãi",
+          "address": "224 Nguyễn Trãi",
+          "lat": 20.997888634039683,
+          "lng": 105.81221759319308
+        },
+        {
+          "sourceKey": "busmap:hn:station:534",
+          "name": "ĐH Khoa học - Tự nhiên, Nguyễn Trãi",
+          "address": "ĐH Khoa học - Tự nhiên - 332 Nguyễn Trãi",
+          "lat": 20.995933,
+          "lng": 105.80925
+        },
+        {
+          "sourceKey": "busmap:hn:station:535",
+          "name": "Cục Sở hữu trí tuệ, Nguyễn Trãi",
+          "address": "Cục Sở hữu trí tuệ",
+          "lat": 20.99357652317776,
+          "lng": 105.8058661222458
+        },
+        {
+          "sourceKey": "busmap:hn:station:544",
+          "name": "Bách hóa Thanh Xuân, Nguyễn Trãi",
+          "address": "Bách hóa Thanh Xuân (chân cầu đi bộ)- đường Nguyễn Trãi",
+          "lat": 20.990467,
+          "lng": 105.801383
+        },
+        {
+          "sourceKey": "busmap:hn:station:6422",
+          "name": "216 Nguyễn Trãi",
+          "address": "Nhà Văn hóa tổ dân phố số 8 & 9 Phường Trung Văn",
+          "lat": 20.9878,
+          "lng": 105.7976
+        },
+        {
+          "sourceKey": "busmap:hn:station:537",
+          "name": "Công ty CP Công trình GT, Nguyễn trãi",
+          "address": "873 - Nguyễn Trãi",
+          "lat": 20.985791,
+          "lng": 105.794872
+        },
+        {
+          "sourceKey": "busmap:hn:station:797",
+          "name": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "address": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "lat": 20.983446,
+          "lng": 105.791662
+        },
+        {
+          "sourceKey": "busmap:hn:station:798",
+          "name": "Học viện Bưu chính viễn thông, Trần Phú (HĐ)",
+          "address": "Học viện công nghệ bưu chính viễn thông - Trần Phú",
+          "lat": 20.980401,
+          "lng": 105.7879
+        },
+        {
+          "sourceKey": "busmap:hn:station:6895",
+          "name": "Hồ Gươm Plaza",
+          "address": "Hồ Gươm Plaza",
+          "lat": 20.978520720841146,
+          "lng": 105.78551637016973
+        },
+        {
+          "sourceKey": "busmap:hn:station:643",
+          "name": "Bưu điện Hà Đông",
+          "address": "Số 8 Quang Trung - Hà Đông",
+          "lat": 20.972531,
+          "lng": 105.777525
+        },
+        {
+          "sourceKey": "busmap:hn:station:5761",
+          "name": "80 Quang Trung",
+          "address": "Hà Đông",
+          "lat": 20.970167,
+          "lng": 105.7746
+        },
+        {
+          "sourceKey": "busmap:hn:station:645",
+          "name": "Nhà thi đấu Hà Đông",
+          "address": "Nhà thi đấu Hà Đông - 182 Quang Trung (Hà Đông)",
+          "lat": 20.96755,
+          "lng": 105.771383
+        },
+        {
+          "sourceKey": "busmap:hn:station:5762",
+          "name": "Ga La Khê - 350 - 352 Quang Trung",
+          "address": "Ga La Khê",
+          "lat": 20.96375,
+          "lng": 105.766417
+        },
+        {
+          "sourceKey": "busmap:hn:station:647",
+          "name": "Giữa số 428 - 430 Quang Trung",
+          "address": "Giữa số 428 - 430 Quang Trung",
+          "lat": 20.962033,
+          "lng": 105.764283
+        },
+        {
+          "sourceKey": "busmap:hn:station:648",
+          "name": "BRT Văn La - 530 - 532 Quang Trung",
+          "address": "BRT Văn La - 530 - 532 Quang Trung",
+          "lat": 20.96017,
+          "lng": 105.761888
+        },
+        {
+          "sourceKey": "busmap:hn:station:649",
+          "name": "678 - 680 Quang Trung",
+          "address": "678 - 680 Quang Trung",
+          "lat": 20.958085,
+          "lng": 105.759179
+        },
+        {
+          "sourceKey": "busmap:hn:station:5770",
+          "name": "870 Quang Trung",
+          "address": "Ga Văn Khê - 870 Quang Trung",
+          "lat": 20.95552338583687,
+          "lng": 105.75578391551971
+        },
+        {
+          "sourceKey": "busmap:hn:station:650",
+          "name": "Nissan Hà Đông",
+          "address": "Nissan Hà Đông - 938 Quang Trung (HĐ)",
+          "lat": 20.95395,
+          "lng": 105.753667
+        },
+        {
+          "sourceKey": "busmap:hn:station:1470",
+          "name": "Đối diện Trường TH Kinh tế Hà Tây",
+          "address": "Đối diện Trường TH Kinh tế Hà Tây, Quang trung (HĐ)",
+          "lat": 20.950234,
+          "lng": 105.748745
+        },
+        {
+          "sourceKey": "busmap:hn:station:1749",
+          "name": "(B) BX Yên Nghĩa",
+          "address": "Tuyến 01",
+          "lat": 20.949808,
+          "lng": 105.747402
+        }
+      ]
+    },
+    {
+      "code": "02TC",
+      "name": "Tuyến 02TC - [02TC] Bến xe Yên Nghĩa - Trung tâm triển lãm Việt Nam",
+      "color": "#FF6B35",
+      "status": "active",
+      "startTime": "07:00",
+      "endTime": "21:30",
+      "frequency": 60,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1750",
+          "name": "(B) BX Yên Nghĩa",
+          "address": "Tuyến 02",
+          "lat": 20.949979,
+          "lng": 105.747619
+        },
+        {
+          "sourceKey": "busmap:hn:station:1487",
+          "name": "Trường trung cấp Kinh tế",
+          "address": "Trường trung cấp Kinh tế - đối diện 961 Quang Trung (HĐ)",
+          "lat": 20.951129896448837,
+          "lng": 105.75053215026855
+        },
+        {
+          "sourceKey": "busmap:hn:station:5764",
+          "name": "Đối diện Nissan Hà Đông",
+          "address": "Nhà ga Văn Khê",
+          "lat": 20.954135718406704,
+          "lng": 105.75455546379092
+        },
+        {
+          "sourceKey": "busmap:hn:station:651",
+          "name": "807 Quang Trung",
+          "address": "Hà Đông",
+          "lat": 20.958052,
+          "lng": 105.759623
+        },
+        {
+          "sourceKey": "busmap:hn:station:652",
+          "name": "707-709 Quang Trung, Hà Đông",
+          "address": "cột mốc H3/15",
+          "lat": 20.960217,
+          "lng": 105.76245
+        },
+        {
+          "sourceKey": "busmap:hn:station:5765",
+          "name": "Ga La Khê",
+          "address": "Ga La Khê - 481 Quang Trung",
+          "lat": 20.963608672182115,
+          "lng": 105.76682388782504
+        },
+        {
+          "sourceKey": "busmap:hn:station:654",
+          "name": "Chợ La Khê",
+          "address": "Đối diện đường vào chợ La Khê - 405 Quang Trung",
+          "lat": 20.96499625173167,
+          "lng": 105.76870679855348
+        },
+        {
+          "sourceKey": "busmap:hn:station:5766",
+          "name": "Công ty CPLH Thực Phẩm",
+          "address": "267 Quang Trung - Hà Đông",
+          "lat": 20.967433,
+          "lng": 105.771667
+        },
+        {
+          "sourceKey": "busmap:hn:station:656",
+          "name": "Ga Hà Đông - đình Cầu Đơ",
+          "address": "85 Quang Trung (Hà Đông",
+          "lat": 20.970569,
+          "lng": 105.775677
+        },
+        {
+          "sourceKey": "busmap:hn:station:657",
+          "name": "Bưu điện Hà Đông",
+          "address": "Đối diện Bưu Điện Hà Đông(15 Quang Trung Hà Đông)",
+          "lat": 20.972417,
+          "lng": 105.777833
+        },
+        {
+          "sourceKey": "busmap:hn:station:801",
+          "name": "Sở Tư Pháp Hà Nội, Trần phú (HĐ)",
+          "address": "Liên minh các HTX Hà Nội - Số 1 Trần Phú (Hà Đông)",
+          "lat": 20.975833,
+          "lng": 105.7826
+        },
+        {
+          "sourceKey": "busmap:hn:station:5771",
+          "name": "Ga Văn Quán, Trần Phú (HĐ)",
+          "address": "149 Trần Phú (HĐ)",
+          "lat": 20.97746886157204,
+          "lng": 105.78485369682312
+        },
+        {
+          "sourceKey": "busmap:hn:station:802",
+          "name": "Siêu thị Nguyễn Kim, Trần Phú (HĐ)",
+          "address": "Siêu thị Nguyễn Kim - 135 Trần Phú (HĐ)",
+          "lat": 20.979432,
+          "lng": 105.787142
+        },
+        {
+          "sourceKey": "busmap:hn:station:803",
+          "name": "Đại học Kiến trúc Hà Nội, Trần Phú (HĐ)",
+          "address": "Đại học Kiến Trúc - Trần Phú (Hà Đông)",
+          "lat": 20.981083,
+          "lng": 105.7892
+        },
+        {
+          "sourceKey": "busmap:hn:station:804",
+          "name": "Học viện An Ninh nhân dân",
+          "address": "Học viện An ninh nhân dân - Trần Phú (Hà Đông )",
+          "lat": 20.982868,
+          "lng": 105.791447
+        },
+        {
+          "sourceKey": "busmap:hn:station:5772",
+          "name": "Ga Phùng Khoang",
+          "address": "77 Trần Phú",
+          "lat": 20.984017,
+          "lng": 105.792933
+        },
+        {
+          "sourceKey": "busmap:hn:station:538",
+          "name": "521A Nguyễn Trãi",
+          "address": "Đối diện Đại học Hà Nội",
+          "lat": 20.987,
+          "lng": 105.79717
+        },
+        {
+          "sourceKey": "busmap:hn:station:539",
+          "name": "Tổng Công ty Sông Đà - 493 Nguyễn Trãi",
+          "address": "Tổng Công ty xây dựng Sông Đà - 493 Nguyễn Trãi",
+          "lat": 20.988517,
+          "lng": 105.799317
+        },
+        {
+          "sourceKey": "busmap:hn:station:545",
+          "name": "Học viện Khoa học Xã hội - 471 Nguyễn Trãi",
+          "address": "471 Nguyễn Trãi - Học viện Khoa học Xã hội",
+          "lat": 20.990217,
+          "lng": 105.8017
+        },
+        {
+          "sourceKey": "busmap:hn:station:4072",
+          "name": "Công ty Giày Thượng Đình - Nguyễn Trãi",
+          "address": "Công ty Giày Thượng Đình - 277 Nguyễn Trãi",
+          "lat": 20.99335,
+          "lng": 105.806233
+        },
+        {
+          "sourceKey": "busmap:hn:station:541",
+          "name": "Nhà máy thuốc lá Thăng Long, Nguyễn trãi",
+          "address": "Cty Thuốc Lá Thăng Long",
+          "lat": 20.995383,
+          "lng": 105.809083
+        },
+        {
+          "sourceKey": "busmap:hn:station:5763",
+          "name": "Ga Thượng Đình, nguyễn trãi",
+          "address": "222 Nguyễn Trãi (bên cưới Ga Thượng ĐÌnh)",
+          "lat": 20.99807393682558,
+          "lng": 105.81248044967651
+        },
+        {
+          "sourceKey": "busmap:hn:station:5856",
+          "name": "129T Nguyễn Trãi",
+          "address": "Cầu vượt đi bộ Royal City",
+          "lat": 20.999517,
+          "lng": 105.81515
+        },
+        {
+          "sourceKey": "busmap:hn:station:543",
+          "name": "Sân Vận động Thượng Đình, Nguyễn Trãi",
+          "address": "129 Nguyễn Trãi",
+          "lat": 21.000738,
+          "lng": 105.817132
+        },
+        {
+          "sourceKey": "busmap:hn:station:3603",
+          "name": "Số 69A Nguyễn Trãi",
+          "address": "Số 69A Nguyễn Trãi",
+          "lat": 21.001783,
+          "lng": 105.81875
+        },
+        {
+          "sourceKey": "busmap:hn:station:146",
+          "name": "Flatfom dành riêng cho xe buýt trước nhà 80 Đường Láng",
+          "address": "Flatfom dành riêng cho xe buýt trước nhà 80 Đường Láng",
+          "lat": 21.0039666666667,
+          "lng": 105.818616666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:147",
+          "name": "Ga Láng - 220 đường Láng",
+          "address": "Trường Đảng Lê Hồng Phong",
+          "lat": 21.0058833333333,
+          "lng": 105.81665
+        },
+        {
+          "sourceKey": "busmap:hn:station:148",
+          "name": "470 Đường Láng",
+          "address": "470 Đường Láng",
+          "lat": 21.00985,
+          "lng": 105.8128
+        },
+        {
+          "sourceKey": "busmap:hn:station:149",
+          "name": "Chợ Láng Hạ A",
+          "address": "572 Đường Láng",
+          "lat": 21.013107,
+          "lng": 105.808025
+        },
+        {
+          "sourceKey": "busmap:hn:station:150",
+          "name": "794 Đường Láng",
+          "address": "794 Đường Láng",
+          "lat": 21.01815,
+          "lng": 105.80295
+        },
+        {
+          "sourceKey": "busmap:hn:station:151",
+          "name": "1014 Đường Láng",
+          "address": "1014 Đường Láng",
+          "lat": 21.023387,
+          "lng": 105.799392
+        },
+        {
+          "sourceKey": "busmap:hn:station:5003",
+          "name": "1178 Đường Láng",
+          "address": "1178 Đường Láng",
+          "lat": 21.027442,
+          "lng": 105.79962
+        },
+        {
+          "sourceKey": "busmap:hn:station:61",
+          "name": "Điểm trung chuyển Cầu Giấy - Thủ Lệ (Cột trước)",
+          "address": "Thủ Lệ 01 - Cầu Giấy đường trên cao",
+          "lat": 21.029109,
+          "lng": 105.804032
+        },
+        {
+          "sourceKey": "busmap:hn:station:2087",
+          "name": "Công viên Thủ Lệ (đường Bưởi)",
+          "address": "Công viên Thủ Lệ (đường Bưởi)",
+          "lat": 21.031633,
+          "lng": 105.803467
+        },
+        {
+          "sourceKey": "busmap:hn:station:5007",
+          "name": "Dốc tập lái",
+          "address": "202 đường Bưởi trên",
+          "lat": 21.035467,
+          "lng": 105.80605
+        },
+        {
+          "sourceKey": "busmap:hn:station:2088",
+          "name": "Gần ngõ 378 đường Bưởi tránh",
+          "address": "bên giao Đội Cấn",
+          "lat": 21.040856,
+          "lng": 105.806809
+        },
+        {
+          "sourceKey": "busmap:hn:station:2089",
+          "name": "Số 66 - 68 đường Bưởi",
+          "address": "gần vòng xuyến Hoàng Quốc Việt - Lạc Long Quân",
+          "lat": 21.045617,
+          "lng": 105.8063
+        },
+        {
+          "sourceKey": "busmap:hn:station:3088",
+          "name": "Cầu vượt đi bộ Võ Chí Công",
+          "address": "Cầu vượt đi bộ Võ Chí Công",
+          "lat": 21.050546,
+          "lng": 105.804692
+        },
+        {
+          "sourceKey": "busmap:hn:station:3089",
+          "name": "Đối diện nhà hàng Ngọc Được 3 - Võ Chí Công",
+          "address": "Đối diện nhà hàng Ngọc Được 3 - Võ Chí Công",
+          "lat": 21.055467,
+          "lng": 105.804617
+        },
+        {
+          "sourceKey": "busmap:hn:station:3090",
+          "name": "41 Võ Chí Công",
+          "address": "41 Võ Chí Công",
+          "lat": 21.06085,
+          "lng": 105.804617
+        },
+        {
+          "sourceKey": "busmap:hn:station:5010",
+          "name": "258 Võ Chí Công",
+          "address": "258 Võ Chí Công",
+          "lat": 21.068333,
+          "lng": 105.808183
+        },
+        {
+          "sourceKey": "busmap:hn:station:3092",
+          "name": "Đối diện phòng Cảnh Sát PCCC, Võ Chí Công",
+          "address": "CA TP Hà Nội",
+          "lat": 21.071483,
+          "lng": 105.809733
+        },
+        {
+          "sourceKey": "busmap:hn:station:2762",
+          "name": "Đối diện KĐT Nam Thăng Long, Võ Chí Công",
+          "address": "Đối diện KĐT Nam Thăng Long",
+          "lat": 21.07455,
+          "lng": 105.81095
+        },
+        {
+          "sourceKey": "busmap:hn:station:4424",
+          "name": "Trước 50m ngõ 689 Lạc Long Quân, Võ Chí Công",
+          "address": "đường Võ Chí Công",
+          "lat": 21.07999,
+          "lng": 105.813956
+        },
+        {
+          "sourceKey": "busmap:hn:station:2763",
+          "name": "Ngã 4 cầu vượt QL5 - Võ Nguyên Giáp",
+          "address": "Ngã 4 cầu vượt QL5 - Võ Nguyên Giáp",
+          "lat": 21.12045,
+          "lng": 105.827417
+        },
+        {
+          "sourceKey": "busmap:hn:station:59556",
+          "name": "Hầm đi bộ HS8 - Đi Gia Lâm",
+          "address": "Hầm đi bộ HS8",
+          "lat": 21.0977457,
+          "lng": 105.8572859
+        },
+        {
+          "sourceKey": "busmap:hn:station:59564",
+          "name": "Trung tâm Triển lãm Quốc gia (Đến)",
+          "address": "Trung tâm Triển lãm Quốc gia",
+          "lat": 21.0919998,
+          "lng": 105.862691
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "name": "Tuyến 07 - [07] Cầu Giấy - Sân bay Nội Bài (điểm đỗ T1)",
+      "color": "#2196F3",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:35",
+      "frequency": 13,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:58903",
+          "name": "Điểm cuối Cầu Giấy tuyến 20A",
+          "address": "Cầu Giay",
+          "lat": 21.028882,
+          "lng": 105.804057
+        },
+        {
+          "sourceKey": "busmap:hn:station:6652",
+          "name": "Dải giữa điểm trung chuyển Cầu Giấy",
+          "address": "Nhà ga S8-02",
+          "lat": 21.029066666666665,
+          "lng": 105.80346666666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:4873",
+          "name": "Số 148-150 Cầu Giấy",
+          "address": "148 Cầu Giấy",
+          "lat": 21.0329166666667,
+          "lng": 105.798516666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:560",
+          "name": "Đối diện Trường Cao đẳng Điện tử",
+          "address": "Điện lạnh Hà Nội",
+          "lat": 21.036883,
+          "lng": 105.797983
+        },
+        {
+          "sourceKey": "busmap:hn:station:561",
+          "name": "Bảo tàng Dân tộc học VN",
+          "address": "Bảo tàng dân tộc học Việt Nam - Nguyễn Văn Huyên",
+          "lat": 21.04095,
+          "lng": 105.797783
+        },
+        {
+          "sourceKey": "busmap:hn:station:110617",
+          "name": "TCT DV Viễn Thông VNPT",
+          "address": "Qua đường vào CC HV Quốc phòng - Xuân Tảo",
+          "lat": 21.0509324776,
+          "lng": 105.7976906111
+        },
+        {
+          "sourceKey": "busmap:hn:station:58064",
+          "name": "Trung tâm Samsung R&D - Hoàng Minh Thảo",
+          "address": "Đường Hoàng Minh Thảo",
+          "lat": 21.062847,
+          "lng": 105.79213
+        },
+        {
+          "sourceKey": "busmap:hn:station:596",
+          "name": "373 Phạm Văn Đồng",
+          "address": "373 Phạm Văn Đồng",
+          "lat": 21.07015,
+          "lng": 105.78555
+        },
+        {
+          "sourceKey": "busmap:hn:station:598",
+          "name": "189 Phạm Văn Đồng",
+          "address": "Đường Phạm Văn Đồng",
+          "lat": 21.075022,
+          "lng": 105.78598
+        },
+        {
+          "sourceKey": "busmap:hn:station:882",
+          "name": "Qua ngã 3 Hải Bối",
+          "address": "Vĩnh Ngọc 300m",
+          "lat": 21.117167,
+          "lng": 105.78415
+        },
+        {
+          "sourceKey": "busmap:hn:station:883",
+          "name": "Qua ngã tư khu CN Thăng Long 100m",
+          "address": "chiều Hà Nội - Nội Bài",
+          "lat": 21.12645,
+          "lng": 105.781167
+        },
+        {
+          "sourceKey": "busmap:hn:station:885",
+          "name": "Đối diện UBND xã Kim Chung",
+          "address": "Km 2+230 Cao tốc BTL-NB",
+          "lat": 21.1319,
+          "lng": 105.7792
+        },
+        {
+          "sourceKey": "busmap:hn:station:886",
+          "name": "Qua cầu chui dân sinh số 4 - đường vào thôn Nhuế, Km 11+200",
+          "address": "chiều Hà Nội đi sân bay Nội Bài",
+          "lat": 21.1418,
+          "lng": 105.778683
+        },
+        {
+          "sourceKey": "busmap:hn:station:887",
+          "name": "Cầu Vân Trì",
+          "address": "Km 4+560 Cao tốc BTL-NB",
+          "lat": 21.153083,
+          "lng": 105.7792
+        },
+        {
+          "sourceKey": "busmap:hn:station:888",
+          "name": "Trước 70m cầu vượt Ngã tư Nam Hồng Cao tốc BTL",
+          "address": "NB",
+          "lat": 21.158183,
+          "lng": 105.779433
+        },
+        {
+          "sourceKey": "busmap:hn:station:889",
+          "name": "Công ty cơ khí Nam Hồng",
+          "address": "Km 6+120 Cao tốc BTL-NB",
+          "lat": 21.165267,
+          "lng": 105.779733
+        },
+        {
+          "sourceKey": "busmap:hn:station:890",
+          "name": "Đối diện KCN Quang Minh (Melinh Palaza)",
+          "address": "Km 8+100 Cao tốc BTL-NB",
+          "lat": 21.186373,
+          "lng": 105.780565
+        },
+        {
+          "sourceKey": "busmap:hn:station:891",
+          "name": "Nhà máy tấm lợp VitMetal",
+          "address": "Km 8+850 Cao tốc BTL-NB",
+          "lat": 21.192593,
+          "lng": 105.780729
+        },
+        {
+          "sourceKey": "busmap:hn:station:892",
+          "name": "Soát vé cao tốc Bắc Thăng Long",
+          "address": "Km 10+230 Cao tốc BTL-NB",
+          "lat": 21.205018,
+          "lng": 105.779777
+        },
+        {
+          "sourceKey": "busmap:hn:station:893",
+          "name": "Ngã tư Cao tốc TL",
+          "address": "Phúc Yên - Km 11+700 Cao tốc BTL-NB",
+          "lat": 21.214517,
+          "lng": 105.778733
+        },
+        {
+          "sourceKey": "busmap:hn:station:895",
+          "name": "Qua 50m ngã 3 vào thôn Điền Xá",
+          "address": "cao tốc BTL-NB (đường Võ Văn Kiệt)",
+          "lat": 21.2187,
+          "lng": 105.781917
+        },
+        {
+          "sourceKey": "busmap:hn:station:896",
+          "name": "Đối diện nhà ga T2 sân bay Nội Bài",
+          "address": "cao tốc BTL-NB (đường Võ Văn Kiệt)",
+          "lat": 21.21445,
+          "lng": 105.796317
+        },
+        {
+          "sourceKey": "busmap:hn:station:897",
+          "name": "Đối diện nhà ga T1 sân bay Nội Bài",
+          "address": "Văn phòng Nassco",
+          "lat": 21.212679809568005,
+          "lng": 105.80218613147736
+        },
+        {
+          "sourceKey": "busmap:hn:station:919",
+          "name": "Sảnh tầng 1 nhà ga T1",
+          "address": "Sảnh tầng 1 nhà ga T1",
+          "lat": 21.214454,
+          "lng": 105.802315
+        },
+        {
+          "sourceKey": "busmap:hn:station:1781",
+          "name": "(B) Nội Bài",
+          "address": "Tuyến 07",
+          "lat": 21.214417,
+          "lng": 105.801263
+        }
+      ]
+    },
+    {
+      "code": "08A",
+      "name": "Tuyến 08A - [08A] Long Biên - Đông Mỹ",
+      "color": "#00897B",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:30",
+      "frequency": 13,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1713",
+          "name": "(A) Long Biên",
+          "address": "Tuyến 08A",
+          "lat": 21.04339,
+          "lng": 105.8476
+        },
+        {
+          "sourceKey": "busmap:hn:station:865",
+          "name": "Điểm trung chuyển Long Biên (E3.4)",
+          "address": "E3.4 Điểm trung chuyển Long Biên",
+          "lat": 21.041433,
+          "lng": 105.84925
+        },
+        {
+          "sourceKey": "busmap:hn:station:489",
+          "name": "Ngã 4 Nguyễn Hữu Huân - Hàng Mắm",
+          "address": "54 Nguyễn Hữu Huân",
+          "lat": 21.033467,
+          "lng": 105.854417
+        },
+        {
+          "sourceKey": "busmap:hn:station:390",
+          "name": "Cung thiếu Nhi Hà Nội",
+          "address": "36 Lý Thái Tổ - Cung thiếu nhi Hà Nội",
+          "lat": 21.028117,
+          "lng": 105.85565
+        },
+        {
+          "sourceKey": "busmap:hn:station:425",
+          "name": "40 Ngô Quyền",
+          "address": "TT Giao Dịch Công Nghệ",
+          "lat": 21.022683,
+          "lng": 105.854367
+        },
+        {
+          "sourceKey": "busmap:hn:station:393",
+          "name": "Đối diện 39 Lý Thường Kiệt",
+          "address": "Đối diện 39 Lý Thường Kiệt",
+          "lat": 21.023,
+          "lng": 105.8517
+        },
+        {
+          "sourceKey": "busmap:hn:station:33",
+          "name": "58B Bà Triệu",
+          "address": "đầu đường",
+          "lat": 21.0217037200928,
+          "lng": 105.850364685059
+        },
+        {
+          "sourceKey": "busmap:hn:station:34",
+          "name": "92-94 Bà Triệu",
+          "address": "92-94 Bà Triệu",
+          "lat": 21.0192,
+          "lng": 105.849416666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:35",
+          "name": "180 - 182 Bà Triệu",
+          "address": "180 - 182 Bà Triệu",
+          "lat": 21.015951,
+          "lng": 105.849215
+        },
+        {
+          "sourceKey": "busmap:hn:station:36",
+          "name": "Đối diện Vincom Tower",
+          "address": "Bà Triệu",
+          "lat": 21.0113,
+          "lng": 105.84905
+        },
+        {
+          "sourceKey": "busmap:hn:station:40",
+          "name": "216-218 Bạch Mai",
+          "address": "216-218 Bạch Mai",
+          "lat": 21.003983,
+          "lng": 105.851067
+        },
+        {
+          "sourceKey": "busmap:hn:station:344",
+          "name": "60 Lê Thanh Nghị",
+          "address": "60 Lê Thanh Nghị",
+          "lat": 21.003417,
+          "lng": 105.848567
+        },
+        {
+          "sourceKey": "busmap:hn:station:345",
+          "name": "Qua Viện tin học pháp ngữ 20m, Lê Thanh Nghị",
+          "address": "Lê Thanh Nghị",
+          "lat": 21.002883,
+          "lng": 105.847483
+        },
+        {
+          "sourceKey": "busmap:hn:station:743",
+          "name": "Kí túc xá ĐH Xây Dựng",
+          "address": "Kí túc xá ĐH Xây Dựng",
+          "lat": 20.9996,
+          "lng": 105.845317
+        },
+        {
+          "sourceKey": "busmap:hn:station:744",
+          "name": "106 Trần Đại Nghĩa",
+          "address": "106 Trần Đại Nghĩa",
+          "lat": 20.997476,
+          "lng": 105.845911
+        },
+        {
+          "sourceKey": "busmap:hn:station:5921",
+          "name": "Tập thể A10 128C Đại La",
+          "address": "Tập thể A10 128C Đại La",
+          "lat": 20.9974,
+          "lng": 105.843833
+        },
+        {
+          "sourceKey": "busmap:hn:station:159",
+          "name": "196 Giải Phóng",
+          "address": "Ngân hàng Nông nghiệp & PTNT Chi nhánh Nam Hà Nội",
+          "lat": 20.99317585843358,
+          "lng": 105.84103526454447
+        },
+        {
+          "sourceKey": "busmap:hn:station:160",
+          "name": "352 Giải Phóng",
+          "address": "352 Giải Phóng",
+          "lat": 20.9876,
+          "lng": 105.84095
+        },
+        {
+          "sourceKey": "busmap:hn:station:161",
+          "name": "Đối diện 807 Giải Phóng",
+          "address": "Đối diện 807 Giải Phóng",
+          "lat": 20.984233,
+          "lng": 105.840917
+        },
+        {
+          "sourceKey": "busmap:hn:station:162",
+          "name": "Bến xe Giáp Bát",
+          "address": "Đối diện Bến xe Giáp Bát - Giải Phóng",
+          "lat": 20.980383,
+          "lng": 105.84085
+        },
+        {
+          "sourceKey": "busmap:hn:station:163",
+          "name": "Ga Giáp Bát - Giải phóng",
+          "address": "Ga Giáp Bát - Đối diện 1035 Giải Phóng",
+          "lat": 20.97616654936769,
+          "lng": 105.8407509326935
+        },
+        {
+          "sourceKey": "busmap:hn:station:164",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đối diện 1251 Giải Phóng",
+          "lat": 20.971783,
+          "lng": 105.840767
+        },
+        {
+          "sourceKey": "busmap:hn:station:429",
+          "name": "Đối diện bến xe Nước Ngầm, Ngọc hồi",
+          "address": "Số 2 Ngọc Hồi, đối diện tập thể bến xe Nước Ngầm",
+          "lat": 20.964205,
+          "lng": 105.841781
+        },
+        {
+          "sourceKey": "busmap:hn:station:430",
+          "name": "Trường PTTH Việt Nam Balan , Ngọc Hồi",
+          "address": "Trường PTTH Việt Nam Balan (Đối diện Khách sạn Nam Thành)",
+          "lat": 20.960874,
+          "lng": 105.84199
+        },
+        {
+          "sourceKey": "busmap:hn:station:431",
+          "name": "Qua đường vào Bệnh viện đa khoa Thăng Long 60m, Ngọc hồi",
+          "address": "Đối diện 171 Ngọc Hồi",
+          "lat": 20.954983,
+          "lng": 105.843217
+        },
+        {
+          "sourceKey": "busmap:hn:station:432",
+          "name": "Đối diện TCT cơ điện nông nghiệp & Thủy lợi, Ngọc Hồi",
+          "address": "264 Ngọc Hồi",
+          "lat": 20.952133,
+          "lng": 105.843817
+        },
+        {
+          "sourceKey": "busmap:hn:station:433",
+          "name": "Đối diện Trụ sở HĐND huyện Thanh Trì, Ngọc hồi",
+          "address": "Ngọc Hồi",
+          "lat": 20.94655,
+          "lng": 105.844167
+        },
+        {
+          "sourceKey": "busmap:hn:station:434",
+          "name": "Qua ngã 3 Phan trọng Tuệ, Ngọc Hồi",
+          "address": "Phan Trọng Tuệ 100m - Ngọc Hồi",
+          "lat": 20.942283,
+          "lng": 105.843867
+        },
+        {
+          "sourceKey": "busmap:hn:station:435",
+          "name": "Qua Khu tập thể LICÔLA 100m, Ngọc hồi",
+          "address": "Ngọc Hồi",
+          "lat": 20.938867,
+          "lng": 105.844283
+        },
+        {
+          "sourceKey": "busmap:hn:station:436",
+          "name": "Gần ngã 3 đường Quỳnh Đô, Ngọc hồi",
+          "address": "Ngọc Hồi",
+          "lat": 20.9353,
+          "lng": 105.845733
+        },
+        {
+          "sourceKey": "busmap:hn:station:437",
+          "name": "Qua Công ty CP Vận tải & Dịch vụ TS 15m, Ngọc hồi",
+          "address": "Ngọc Hồi",
+          "lat": 20.932183,
+          "lng": 105.846967
+        },
+        {
+          "sourceKey": "busmap:hn:station:438",
+          "name": "Viện nghiên cứu trồng & phát triển cây thuốc, Ngọc hồi",
+          "address": "Viện nghiên cứu trồng & phát triển cây thuốc",
+          "lat": 20.9268,
+          "lng": 105.8493
+        },
+        {
+          "sourceKey": "busmap:hn:station:1162",
+          "name": "Đối diện Công ty CP XNK vật tư Nông Nghiệp",
+          "address": "Ngũ Hiệp",
+          "lat": 20.924817,
+          "lng": 105.852533
+        },
+        {
+          "sourceKey": "busmap:hn:station:1163",
+          "name": "XN thiết bị y tế 130 - Ngũ Hiệp",
+          "address": "XN thiết bị y tế 130 - Ngũ Hiệp",
+          "lat": 20.923183,
+          "lng": 105.856417
+        },
+        {
+          "sourceKey": "busmap:hn:station:1164",
+          "name": "Đối diện làng Tương Chúc",
+          "address": "Ngũ Hiệp",
+          "lat": 20.9199,
+          "lng": 105.86445
+        },
+        {
+          "sourceKey": "busmap:hn:station:1165",
+          "name": "Cầu Đông Mỹ",
+          "address": "Ngũ Hiệp (Chiều Long Biên - Đông Mỹ)",
+          "lat": 20.916617,
+          "lng": 105.867817
+        },
+        {
+          "sourceKey": "busmap:hn:station:1166",
+          "name": "Trung tâm giáo dục thường xuyên Đông Mỹ",
+          "address": "Ngũ Hiệp",
+          "lat": 20.9155,
+          "lng": 105.871883
+        },
+        {
+          "sourceKey": "busmap:hn:station:1788",
+          "name": "(B) SVĐ Đông Mỹ",
+          "address": "Tuyến 08A",
+          "lat": 20.918633,
+          "lng": 105.8737
+        }
+      ]
+    },
+    {
+      "code": "08B",
+      "name": "Tuyến 08B - [08B] Long Biên - Vạn Phúc",
+      "color": "#00897B",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:05",
+      "frequency": 20,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:3215",
+          "name": "(A) Yên Phụ - điểm đầu cuối",
+          "address": "Đường dành riêng - giáp điểm trung chuyển Long Biên",
+          "lat": 21.043198,
+          "lng": 105.847736
+        },
+        {
+          "sourceKey": "busmap:hn:station:865",
+          "name": "Điểm trung chuyển Long Biên (E3.4)",
+          "address": "E3.4 Điểm trung chuyển Long Biên",
+          "lat": 21.041433,
+          "lng": 105.84925
+        },
+        {
+          "sourceKey": "busmap:hn:station:489",
+          "name": "Ngã 4 Nguyễn Hữu Huân - Hàng Mắm",
+          "address": "54 Nguyễn Hữu Huân",
+          "lat": 21.033467,
+          "lng": 105.854417
+        },
+        {
+          "sourceKey": "busmap:hn:station:390",
+          "name": "Cung thiếu Nhi Hà Nội",
+          "address": "36 Lý Thái Tổ - Cung thiếu nhi Hà Nội",
+          "lat": 21.028117,
+          "lng": 105.85565
+        },
+        {
+          "sourceKey": "busmap:hn:station:179",
+          "name": "Trung tâm thương mại Tràng Tiền Plaza",
+          "address": "22B Hai Bà Trưng - Cạnh Tràng Tiền Plaza",
+          "lat": 21.024033,
+          "lng": 105.85366
+        },
+        {
+          "sourceKey": "busmap:hn:station:59644",
+          "name": "ĐD Bệnh viện Hữu Nghị Việt Nam - Cu Ba",
+          "address": "48 Hai Bà Trưng - Viện Kiểm Nghiệm thuốc TW",
+          "lat": 21.024984,
+          "lng": 105.85044
+        },
+        {
+          "sourceKey": "busmap:hn:station:59645",
+          "name": "Bệnh viện Phụ sản Trung ương - Hai Bà Trưng",
+          "address": "Đối diện tháp Hà Nội - HBT (cạnh 56 HBT)",
+          "lat": 21.026183,
+          "lng": 105.846402
+        },
+        {
+          "sourceKey": "busmap:hn:station:59353",
+          "name": "Ga Hà Nội - 116 Lê Duẩn",
+          "address": "116 Lê Duẩn - Tổng công ty ĐS Việt Nam",
+          "lat": 21.025543,
+          "lng": 105.841435
+        },
+        {
+          "sourceKey": "busmap:hn:station:326",
+          "name": "Ga Hà Nội",
+          "address": "120 Lê Duẩn",
+          "lat": 21.023285,
+          "lng": 105.841429
+        },
+        {
+          "sourceKey": "busmap:hn:station:328",
+          "name": "358-360 Lê Duẩn",
+          "address": "358-360 Lê Duẩn",
+          "lat": 21.01015,
+          "lng": 105.841283
+        },
+        {
+          "sourceKey": "busmap:hn:station:157",
+          "name": "ĐD Đại học Bách Khoa HN - Giải phóng",
+          "address": "Đối diện cổng Parabol ĐH Bách Khoa - 62 Giải Phóng",
+          "lat": 21.004917,
+          "lng": 105.8412
+        },
+        {
+          "sourceKey": "busmap:hn:station:158",
+          "name": "Bệnh viện Bạch Mai - Giải Phóng",
+          "address": "Bệnh viện Bạch Mai - 78 Giải Phóng",
+          "lat": 21.00099365680178,
+          "lng": 105.8411318260352
+        },
+        {
+          "sourceKey": "busmap:hn:station:59646",
+          "name": "Bệnh viện Bạch Mai - Giải Phóng",
+          "address": "Ngân hàng Nông nghiệp & PTNT Chi nhánh Nam Hà Nội",
+          "lat": 20.9931759,
+          "lng": 105.8410353
+        },
+        {
+          "sourceKey": "busmap:hn:station:160",
+          "name": "352 Giải Phóng",
+          "address": "352 Giải Phóng",
+          "lat": 20.9876,
+          "lng": 105.84095
+        },
+        {
+          "sourceKey": "busmap:hn:station:161",
+          "name": "Đối diện 807 Giải Phóng",
+          "address": "Đối diện 807 Giải Phóng",
+          "lat": 20.984233,
+          "lng": 105.840917
+        },
+        {
+          "sourceKey": "busmap:hn:station:59280",
+          "name": "Đối diện BX Giáp Bát",
+          "address": "Đối diện BX Giáp Bát",
+          "lat": 20.97970781025557,
+          "lng": 105.84081530570984
+        },
+        {
+          "sourceKey": "busmap:hn:station:163",
+          "name": "Ga Giáp Bát - Giải phóng",
+          "address": "Ga Giáp Bát - Đối diện 1035 Giải Phóng",
+          "lat": 20.97616654936769,
+          "lng": 105.8407509326935
+        },
+        {
+          "sourceKey": "busmap:hn:station:164",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đối diện 1251 Giải Phóng",
+          "lat": 20.971783,
+          "lng": 105.840767
+        },
+        {
+          "sourceKey": "busmap:hn:station:117",
+          "name": "Cổng C bến xe Nước ngầm, Đỗ Mười",
+          "address": "Cổng C bến xe Nước ngầm",
+          "lat": 20.965519,
+          "lng": 105.843241
+        },
+        {
+          "sourceKey": "busmap:hn:station:1132",
+          "name": "Tòa nhà Nơ 3 - Trần Thủ Độ",
+          "address": "Tòa nhà Nơ 3 - Trần Thủ Độ",
+          "lat": 20.959633,
+          "lng": 105.846067
+        },
+        {
+          "sourceKey": "busmap:hn:station:1133",
+          "name": "Tường rào Công ty Hino",
+          "address": "gần tòa nhà sinh viên",
+          "lat": 20.958367,
+          "lng": 105.848033
+        },
+        {
+          "sourceKey": "busmap:hn:station:59601",
+          "name": "Đối diên N19 KĐT Pháp Vân - Tứ Hiệp",
+          "address": "Đối diên N19 KĐT Pháp Vân - Tứ Hiệp",
+          "lat": 20.9562598,
+          "lng": 105.8497041
+        },
+        {
+          "sourceKey": "busmap:hn:station:4189",
+          "name": "Qua Cầu Trần Thủ Độ",
+          "address": "Qua Cầu Trần Thủ Độ",
+          "lat": 20.949122,
+          "lng": 105.848346
+        },
+        {
+          "sourceKey": "busmap:hn:station:5912",
+          "name": "Kho bạc huyện Thanh Trì",
+          "address": "Kho bạc huyện Thanh Trì",
+          "lat": 20.944583,
+          "lng": 105.848033
+        },
+        {
+          "sourceKey": "busmap:hn:station:5913",
+          "name": "Nhà thi đầu huyện Thanh Trì",
+          "address": "Nhà thi đầu huyện Thanh Trì",
+          "lat": 20.941248,
+          "lng": 105.849
+        },
+        {
+          "sourceKey": "busmap:hn:station:5914",
+          "name": "Chung cư Tecco",
+          "address": "đường Vũ Lăng",
+          "lat": 20.933967,
+          "lng": 105.851867
+        },
+        {
+          "sourceKey": "busmap:hn:station:5915",
+          "name": "Cty CP Vinafut",
+          "address": "đường Vũ Lăng",
+          "lat": 20.930867,
+          "lng": 105.8554
+        },
+        {
+          "sourceKey": "busmap:hn:station:5916",
+          "name": "Đôí diện cổng nhà thờ thôn Tự Khoát",
+          "address": "Đôí diện cổng nhà thờ thôn Tự Khoát",
+          "lat": 20.925467,
+          "lng": 105.8553
+        },
+        {
+          "sourceKey": "busmap:hn:station:1163",
+          "name": "XN thiết bị y tế 130 - Ngũ Hiệp",
+          "address": "XN thiết bị y tế 130 - Ngũ Hiệp",
+          "lat": 20.923183,
+          "lng": 105.856417
+        },
+        {
+          "sourceKey": "busmap:hn:station:1164",
+          "name": "Đối diện làng Tương Chúc",
+          "address": "Ngũ Hiệp",
+          "lat": 20.9199,
+          "lng": 105.86445
+        },
+        {
+          "sourceKey": "busmap:hn:station:1165",
+          "name": "Cầu Đông Mỹ",
+          "address": "Ngũ Hiệp (Chiều Long Biên - Đông Mỹ)",
+          "lat": 20.916617,
+          "lng": 105.867817
+        },
+        {
+          "sourceKey": "busmap:hn:station:1166",
+          "name": "Trung tâm giáo dục thường xuyên Đông Mỹ",
+          "address": "Ngũ Hiệp",
+          "lat": 20.9155,
+          "lng": 105.871883
+        },
+        {
+          "sourceKey": "busmap:hn:station:946",
+          "name": "Điếm canh đê số 32 (Gần lối rẽ vào đường Đông Mỹ)",
+          "address": "Đê Hữu Hồng",
+          "lat": 20.922167,
+          "lng": 105.8739
+        },
+        {
+          "sourceKey": "busmap:hn:station:963",
+          "name": "Trạm bơm Đông Mỹ",
+          "address": "Trạm bơm Đông Mỹ",
+          "lat": 20.923367,
+          "lng": 105.87975
+        },
+        {
+          "sourceKey": "busmap:hn:station:947",
+          "name": "Cổng làng văn hoá Mỹ Á thôn Đông Mỹ",
+          "address": "Đê Hữu Hồng",
+          "lat": 20.921267,
+          "lng": 105.883483
+        },
+        {
+          "sourceKey": "busmap:hn:station:949",
+          "name": "Qua lối rẽ vào UBND xã Vạn Phúc 50m",
+          "address": "Đê Hữu Hồng",
+          "lat": 20.914117,
+          "lng": 105.89
+        },
+        {
+          "sourceKey": "busmap:hn:station:4192",
+          "name": "(B) Vạn Phúc",
+          "address": "Thanh Trì - Tuyến 08B",
+          "lat": 20.911283,
+          "lng": 105.891267
+        }
+      ]
+    },
+    {
+      "code": "09A",
+      "name": "Tuyến 09A - [09A] Bờ Hồ - Cầu Giấy - Đại học Mỏ",
+      "color": "#7B1FA2",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:05",
+      "frequency": 18,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:5451",
+          "name": "(A) Điểm đỗ xe Trần Khánh Dư - Cuối tuần",
+          "address": "Bãi đỗ xe - điểm trung chuyển Trần Khánh Dư",
+          "lat": 21.023378126089643,
+          "lng": 105.8605992794037
+        },
+        {
+          "sourceKey": "busmap:hn:station:754",
+          "name": "Đối diện Bệnh Viện Trung ương Quân đội 108 - Trần Hưng Đạo",
+          "address": "Đối diện Bệnh Viện Trung ương Quân đội 108 - Trần Hưng Đạo",
+          "lat": 21.0186,
+          "lng": 105.860567
+        },
+        {
+          "sourceKey": "busmap:hn:station:347",
+          "name": "Đại học Khoa học tự nhiên",
+          "address": "19 Lê Thánh Tông",
+          "lat": 21.020567,
+          "lng": 105.858267
+        },
+        {
+          "sourceKey": "busmap:hn:station:2183",
+          "name": "Hè cạnh vườn hoa 19-8, đường Hai Bà Trưng",
+          "address": "Hè cạnh vườn hoa 19-8, đường Hai Bà Trưng",
+          "lat": 21.023083,
+          "lng": 105.857067
+        },
+        {
+          "sourceKey": "busmap:hn:station:179",
+          "name": "Trung tâm thương mại Tràng Tiền Plaza",
+          "address": "22B Hai Bà Trưng - Cạnh Tràng Tiền Plaza",
+          "lat": 21.024033,
+          "lng": 105.85366
+        },
+        {
+          "sourceKey": "busmap:hn:station:180",
+          "name": "Bệnh viện Hữu Nghị Việt Nam - Cu Ba",
+          "address": "48 Hai Bà Trưng - Viện Kiểm Nghiệm thuốc TW",
+          "lat": 21.024984,
+          "lng": 105.85044
+        },
+        {
+          "sourceKey": "busmap:hn:station:726",
+          "name": "6-8 Tràng Thi",
+          "address": "Qua ngã 4 Tràng Thi - Lý Quốc Sư",
+          "lat": 21.026551,
+          "lng": 105.849567
+        },
+        {
+          "sourceKey": "busmap:hn:station:59114",
+          "name": "40 Tràng Thi",
+          "address": "40 Tràng Thi",
+          "lat": 21.027469059261552,
+          "lng": 105.84660351276398
+        },
+        {
+          "sourceKey": "busmap:hn:station:95",
+          "name": "Cửa Nam - Điện Biên Phủ",
+          "address": "12A Điện Biên Phủ",
+          "lat": 21.0295,
+          "lng": 105.8424
+        },
+        {
+          "sourceKey": "busmap:hn:station:96",
+          "name": "Cột cờ Hà Nội",
+          "address": "Điện Biên Phủ",
+          "lat": 21.031983,
+          "lng": 105.839867
+        },
+        {
+          "sourceKey": "busmap:hn:station:5180",
+          "name": "18A Lê Hồng Phong",
+          "address": "Ngã 4 Lê Hồng Phong Ông Ích Khiêm",
+          "lat": 21.034204,
+          "lng": 105.833965
+        },
+        {
+          "sourceKey": "busmap:hn:station:106",
+          "name": "Trạm biến áp Đội Cấn 2 - Số nhà 47 phố Đội Cấn",
+          "address": "Trạm biến áp Đội Cấn 2 - Số nhà 47 phố Đội Cấn",
+          "lat": 21.034533,
+          "lng": 105.8304
+        },
+        {
+          "sourceKey": "busmap:hn:station:107",
+          "name": "195B Đội Cấn",
+          "address": "195B Đội Cấn",
+          "lat": 21.03515,
+          "lng": 105.823433
+        },
+        {
+          "sourceKey": "busmap:hn:station:108",
+          "name": "285 Đội Cấn",
+          "address": "Công ty Dệt Kim Hà Nội",
+          "lat": 21.035467,
+          "lng": 105.818917
+        },
+        {
+          "sourceKey": "busmap:hn:station:369",
+          "name": "22 Liễu Giai",
+          "address": "22 Liễu Giai",
+          "lat": 21.035888,
+          "lng": 105.814471
+        },
+        {
+          "sourceKey": "busmap:hn:station:370",
+          "name": "Trường Quốc Tế Hà Nội - 48 Liễu Giai",
+          "address": "Trường Quốc Tế Hà Nội - 48 Liễu Giai",
+          "lat": 21.032817,
+          "lng": 105.8135
+        },
+        {
+          "sourceKey": "busmap:hn:station:475",
+          "name": "Hồ Ngọc Khánh, Nguyễn Chí Thanh",
+          "address": "Hồ Ngọc Khánh - Đối diện 37 Nguyễn Chí Thanh",
+          "lat": 21.02695,
+          "lng": 105.811933
+        },
+        {
+          "sourceKey": "busmap:hn:station:88",
+          "name": "Ngõ 1072 Đê La Thành",
+          "address": "Ngõ 1072 Đê La Thành",
+          "lat": 21.027367,
+          "lng": 105.809467
+        },
+        {
+          "sourceKey": "busmap:hn:station:61",
+          "name": "Điểm trung chuyển Cầu Giấy - Thủ Lệ (Cột trước)",
+          "address": "Thủ Lệ 01 - Cầu Giấy đường trên cao",
+          "lat": 21.029109,
+          "lng": 105.804032
+        },
+        {
+          "sourceKey": "busmap:hn:station:2087",
+          "name": "Công viên Thủ Lệ (đường Bưởi)",
+          "address": "Công viên Thủ Lệ (đường Bưởi)",
+          "lat": 21.031633,
+          "lng": 105.803467
+        },
+        {
+          "sourceKey": "busmap:hn:station:5007",
+          "name": "Dốc tập lái",
+          "address": "202 đường Bưởi trên",
+          "lat": 21.035467,
+          "lng": 105.80605
+        },
+        {
+          "sourceKey": "busmap:hn:station:2088",
+          "name": "Gần ngõ 378 đường Bưởi tránh",
+          "address": "bên giao Đội Cấn",
+          "lat": 21.040856,
+          "lng": 105.806809
+        },
+        {
+          "sourceKey": "busmap:hn:station:2089",
+          "name": "Số 66 - 68 đường Bưởi",
+          "address": "gần vòng xuyến Hoàng Quốc Việt - Lạc Long Quân",
+          "lat": 21.045617,
+          "lng": 105.8063
+        },
+        {
+          "sourceKey": "busmap:hn:station:233",
+          "name": "Trung tâm KHTN Công nghệ Quốc Gia",
+          "address": "18 Hoàng Quốc Việt",
+          "lat": 21.04635,
+          "lng": 105.8017
+        },
+        {
+          "sourceKey": "busmap:hn:station:234",
+          "name": "90 Hoàng Quốc Việt",
+          "address": "Ngã 3 Nguyễn Văn Huyên",
+          "lat": 21.04635,
+          "lng": 105.796867
+        },
+        {
+          "sourceKey": "busmap:hn:station:235",
+          "name": "122-124 Hoàng Quốc Việt",
+          "address": "122-124 Hoàng Quốc Việt",
+          "lat": 21.04635,
+          "lng": 105.7921
+        },
+        {
+          "sourceKey": "busmap:hn:station:236",
+          "name": "212 Hoàng Quốc Việt",
+          "address": "Đối diện HV Chính trị Quốc Gia Hồ Chí Minh",
+          "lat": 21.046258,
+          "lng": 105.787504
+        },
+        {
+          "sourceKey": "busmap:hn:station:59691",
+          "name": "Trung chuyển Hoàng Quốc Việt (cột trước)",
+          "address": "cột trước chiều đi Phạm Văn Đồng",
+          "lat": 21.0461848,
+          "lng": 105.7849127
+        },
+        {
+          "sourceKey": "busmap:hn:station:5159",
+          "name": "655 Phạm Văn Đồng",
+          "address": "655 Phạm Văn Đồng",
+          "lat": 21.048241,
+          "lng": 105.781724
+        },
+        {
+          "sourceKey": "busmap:hn:station:594",
+          "name": "36A Phạm Văn Đồng",
+          "address": "36A Phạm Văn Đồng",
+          "lat": 21.05128,
+          "lng": 105.781937
+        },
+        {
+          "sourceKey": "busmap:hn:station:5160",
+          "name": "Công an Phường Nghĩa Đô - 601 Phạm Văn Đồng",
+          "address": "UBND phường Cổ Nhuế 1 - 601 Phạm Văn Đồng",
+          "lat": 21.054513,
+          "lng": 105.782275
+        },
+        {
+          "sourceKey": "busmap:hn:station:595",
+          "name": "527 Phạm Văn Đồng",
+          "address": "527 Phạm Văn Đồng",
+          "lat": 21.057638,
+          "lng": 105.782995
+        },
+        {
+          "sourceKey": "busmap:hn:station:597",
+          "name": "Qua 70m đường vào công viên Hòa Bình",
+          "address": "Phạm Văn Đồng",
+          "lat": 21.0622,
+          "lng": 105.784017
+        },
+        {
+          "sourceKey": "busmap:hn:station:596",
+          "name": "373 Phạm Văn Đồng",
+          "address": "373 Phạm Văn Đồng",
+          "lat": 21.07015,
+          "lng": 105.78555
+        },
+        {
+          "sourceKey": "busmap:hn:station:598",
+          "name": "189 Phạm Văn Đồng",
+          "address": "Đường Phạm Văn Đồng",
+          "lat": 21.075022,
+          "lng": 105.78598
+        },
+        {
+          "sourceKey": "busmap:hn:station:201",
+          "name": "Đối diện số nhà 69 Hoàng Tăng Bí",
+          "address": "xã Đông Ngạc",
+          "lat": 21.082217,
+          "lng": 105.78345
+        },
+        {
+          "sourceKey": "busmap:hn:station:59692",
+          "name": "Đối diện Đại lý sơn PU Thế Anh",
+          "address": "Đối diện Đại lý sơn PU Thế Anh",
+          "lat": 21.0839595,
+          "lng": 105.7793283
+        },
+        {
+          "sourceKey": "busmap:hn:station:59693",
+          "name": "Đối diện 30 Đức Thắng - Đông Ngạc",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.08245,
+          "lng": 105.7782
+        },
+        {
+          "sourceKey": "busmap:hn:station:59694",
+          "name": "Đối diện trường HV Tài Chính CS2",
+          "address": "Đối diện trường HV Tài Chính CS2",
+          "lat": 21.0813067,
+          "lng": 105.7779711
+        },
+        {
+          "sourceKey": "busmap:hn:station:59695",
+          "name": "Công an phường Đông Ngạc",
+          "address": "UBND phường Đức Thắng",
+          "lat": 21.0778579,
+          "lng": 105.7776171
+        },
+        {
+          "sourceKey": "busmap:hn:station:1064",
+          "name": "Trường CĐ Tài Nguyên & Môi Trường HN",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.074032,
+          "lng": 105.777185
+        },
+        {
+          "sourceKey": "busmap:hn:station:58071",
+          "name": "Đối diện Bệnh viện Phương Đông",
+          "address": "Phố Viên",
+          "lat": 21.0715604,
+          "lng": 105.7750499
+        },
+        {
+          "sourceKey": "busmap:hn:station:58100",
+          "name": "(B) Đại học Mỏ - Tuyến 09A",
+          "address": "Phố Viên",
+          "lat": 21.0715431,
+          "lng": 105.7737194
+        }
+      ]
+    },
+    {
+      "code": "09B",
+      "name": "Tuyến 09B - [09B] Bờ Hồ - Công viên Thống Nhất - Bến xe Mỹ Đình",
+      "color": "#7B1FA2",
+      "status": "active",
+      "startTime": "05:01",
+      "endTime": "22:05",
+      "frequency": 16,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:5451",
+          "name": "(A) Điểm đỗ xe Trần Khánh Dư - Cuối tuần",
+          "address": "Bãi đỗ xe - điểm trung chuyển Trần Khánh Dư",
+          "lat": 21.023378126089643,
+          "lng": 105.8605992794037
+        },
+        {
+          "sourceKey": "busmap:hn:station:754",
+          "name": "Đối diện Bệnh Viện Trung ương Quân đội 108 - Trần Hưng Đạo",
+          "address": "Đối diện Bệnh Viện Trung ương Quân đội 108 - Trần Hưng Đạo",
+          "lat": 21.0186,
+          "lng": 105.860567
+        },
+        {
+          "sourceKey": "busmap:hn:station:347",
+          "name": "Đại học Khoa học tự nhiên",
+          "address": "19 Lê Thánh Tông",
+          "lat": 21.020567,
+          "lng": 105.858267
+        },
+        {
+          "sourceKey": "busmap:hn:station:2183",
+          "name": "Hè cạnh vườn hoa 19-8, đường Hai Bà Trưng",
+          "address": "Hè cạnh vườn hoa 19-8, đường Hai Bà Trưng",
+          "lat": 21.023083,
+          "lng": 105.857067
+        },
+        {
+          "sourceKey": "busmap:hn:station:179",
+          "name": "Trung tâm thương mại Tràng Tiền Plaza",
+          "address": "22B Hai Bà Trưng - Cạnh Tràng Tiền Plaza",
+          "lat": 21.024033,
+          "lng": 105.85366
+        },
+        {
+          "sourceKey": "busmap:hn:station:33",
+          "name": "58B Bà Triệu",
+          "address": "đầu đường",
+          "lat": 21.0217037200928,
+          "lng": 105.850364685059
+        },
+        {
+          "sourceKey": "busmap:hn:station:34",
+          "name": "92-94 Bà Triệu",
+          "address": "92-94 Bà Triệu",
+          "lat": 21.0192,
+          "lng": 105.849416666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:768",
+          "name": "Đối diện Trung tâm giải trí Ngôi Sao Xanh (Hồ Thiền Quang)",
+          "address": "Trần Nhân Tông",
+          "lat": 21.017288,
+          "lng": 105.845721
+        },
+        {
+          "sourceKey": "busmap:hn:station:253",
+          "name": "46 Khâm Thiên",
+          "address": "Đối diện 71 Khâm Thiên",
+          "lat": 21.01905176375504,
+          "lng": 105.83887306000096
+        },
+        {
+          "sourceKey": "busmap:hn:station:254",
+          "name": "274-276 Khâm Thiên",
+          "address": "274-276 Khâm Thiên",
+          "lat": 21.019363,
+          "lng": 105.834084
+        },
+        {
+          "sourceKey": "busmap:hn:station:520",
+          "name": "142-144 Nguyễn Lương Bằng",
+          "address": "142-144 Nguyễn Lương Bằng",
+          "lat": 21.01581,
+          "lng": 105.828275
+        },
+        {
+          "sourceKey": "busmap:hn:station:667",
+          "name": "Gò Đống Đa",
+          "address": "Tây Sơn",
+          "lat": 21.0111,
+          "lng": 105.825333333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:668",
+          "name": "290 Tây Sơn",
+          "address": "290 Tây Sơn",
+          "lat": 21.0071333333333,
+          "lng": 105.823133333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:679",
+          "name": "Café Don 101E1 Thái Thịnh",
+          "address": "Đối diện Bệnh viện Châm cứu Trung ương",
+          "lat": 21.0076,
+          "lng": 105.8209
+        },
+        {
+          "sourceKey": "busmap:hn:station:680",
+          "name": "106 Thái Thịnh",
+          "address": "106 Thái Thịnh",
+          "lat": 21.01155,
+          "lng": 105.817517
+        },
+        {
+          "sourceKey": "busmap:hn:station:681",
+          "name": "196 Thái Thịnh",
+          "address": "196 Thái Thịnh",
+          "lat": 21.0138166666667,
+          "lng": 105.815116666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:247",
+          "name": "Đối diện Đài Truyền hình Hà Nội, Huỳnh Thúc Kháng",
+          "address": "5 Huỳnh Thúc Kháng",
+          "lat": 21.0170166666667,
+          "lng": 105.814233333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:248",
+          "name": "20 Huỳnh Thúc Kháng",
+          "address": "20 Huỳnh Thúc Kháng",
+          "lat": 21.0195,
+          "lng": 105.809125
+        },
+        {
+          "sourceKey": "busmap:hn:station:472",
+          "name": "Đại học Luật (89 Nguyễn Chí Thanh)",
+          "address": "KTX Đại học Luật",
+          "lat": 21.021452,
+          "lng": 105.809325
+        },
+        {
+          "sourceKey": "busmap:hn:station:70",
+          "name": "Đối diện Học viện Quan hệ quốc tế, Chùa Láng",
+          "address": "69 Chùa Láng",
+          "lat": 21.0234666666667,
+          "lng": 105.80645
+        },
+        {
+          "sourceKey": "busmap:hn:station:57968",
+          "name": "Tập thể điện tử Tàu Thủy, Huỳnh Thúc Kháng",
+          "address": "Huỳnh Thúc Kháng",
+          "lat": 21.026517,
+          "lng": 105.804
+        },
+        {
+          "sourceKey": "busmap:hn:station:4873",
+          "name": "Số 148-150 Cầu Giấy",
+          "address": "148 Cầu Giấy",
+          "lat": 21.0329166666667,
+          "lng": 105.798516666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:60",
+          "name": "Ga Chùa Hà",
+          "address": "Ga Chùa Hà",
+          "lat": 21.035185,
+          "lng": 105.794625
+        },
+        {
+          "sourceKey": "busmap:hn:station:65",
+          "name": "370 Cầu Giấy",
+          "address": "370 Cầu Giấy",
+          "lat": 21.035841,
+          "lng": 105.791915
+        },
+        {
+          "sourceKey": "busmap:hn:station:2111",
+          "name": "HV Báo chí Tuyên Truyền",
+          "address": "HV Báo chí Tuyên Truyền",
+          "lat": 21.036583,
+          "lng": 105.788433
+        },
+        {
+          "sourceKey": "busmap:hn:station:6189",
+          "name": "Chợ Xanh - Xuân Thủy",
+          "address": "Chợ Xanh",
+          "lat": 21.036683,
+          "lng": 105.78605
+        },
+        {
+          "sourceKey": "busmap:hn:station:2112",
+          "name": "Ga ĐHQGHN - Xuân Thủy",
+          "address": "ĐH Sư phạm Hà Nội",
+          "lat": 21.03678715491167,
+          "lng": 105.78258454799654
+        },
+        {
+          "sourceKey": "busmap:hn:station:581",
+          "name": "Bệnh viện đa khoa y học cổ truyền, Phạm Hùng",
+          "address": "Bệnh viện đa khoa y học cổ truyền",
+          "lat": 21.034483,
+          "lng": 105.780017
+        },
+        {
+          "sourceKey": "busmap:hn:station:582",
+          "name": "Cục Đăng Kiểm Việt Nam (Phạm Hùng)",
+          "address": "Cục Đăng Kiểm Việt Nam (Phạm Hùng)",
+          "lat": 21.0305,
+          "lng": 105.779267
+        },
+        {
+          "sourceKey": "busmap:hn:station:4871",
+          "name": "(B) BX Mỹ Đình",
+          "address": "Tuyến 09B",
+          "lat": 21.0281,
+          "lng": 105.7785
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": "Tuyến 11 - [11] Công viên Thống Nhất - Học viện Nông Nghiệp VIệt Nam",
+      "color": "#4CAF50",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:00",
+      "frequency": 12,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1702",
+          "name": "CV Thống Nhất - Trần Nhân Tông",
+          "address": "Hè trước cổng CV Thống nhất",
+          "lat": 21.01722,
+          "lng": 105.845008
+        },
+        {
+          "sourceKey": "busmap:hn:station:767",
+          "name": "Công viên Thống Nhất",
+          "address": "Đối diện 326 Lê Duẩn",
+          "lat": 21.014117,
+          "lng": 105.84145
+        },
+        {
+          "sourceKey": "busmap:hn:station:641",
+          "name": "55 Quang Trung",
+          "address": "Đối diện Hồ Thiền Quang",
+          "lat": 21.0182166666667,
+          "lng": 105.847366666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:750",
+          "name": "67 Trần Hưng Đạo",
+          "address": "67 Trần Hưng Đạo",
+          "lat": 21.021909,
+          "lng": 105.84896
+        },
+        {
+          "sourceKey": "busmap:hn:station:606",
+          "name": "Nhà hát Lớn Hà Nội",
+          "address": "Đối diện 6C Phan Chu Trinh",
+          "lat": 21.023477,
+          "lng": 105.85729
+        },
+        {
+          "sourceKey": "busmap:hn:station:391",
+          "name": "Ngân hàng Nhà nước Việt Nam - Vườn hoa con Cóc",
+          "address": "51 Lý Thái Tổ - Ngân hàng Nhà nước VN",
+          "lat": 21.026733,
+          "lng": 105.856217
+        },
+        {
+          "sourceKey": "busmap:hn:station:190",
+          "name": "23 Hàng Tre - Ngã 4 Lò Sũ",
+          "address": "23 Hàng Tre",
+          "lat": 21.031982,
+          "lng": 105.855672
+        },
+        {
+          "sourceKey": "busmap:hn:station:188",
+          "name": "Hàng Muối - Cầu Chương Dương",
+          "address": "Số 3 Hàng Muối",
+          "lat": 21.034583,
+          "lng": 105.8547
+        },
+        {
+          "sourceKey": "busmap:hn:station:770",
+          "name": "Đối diện Ô Quan Chưởng",
+          "address": "80 Trần Nhật Duật",
+          "lat": 21.03772,
+          "lng": 105.85298
+        },
+        {
+          "sourceKey": "busmap:hn:station:1073",
+          "name": "Chùa Ái Mộ",
+          "address": "Chùa Ái Mộ",
+          "lat": 21.04245,
+          "lng": 105.865267
+        },
+        {
+          "sourceKey": "busmap:hn:station:453",
+          "name": "52 Ngọc Lâm",
+          "address": "Dốc Cẩm",
+          "lat": 21.04465,
+          "lng": 105.867717
+        },
+        {
+          "sourceKey": "busmap:hn:station:454",
+          "name": "170 Ngọc Lâm",
+          "address": "170 Ngọc Lâm",
+          "lat": 21.046217,
+          "lng": 105.870667
+        },
+        {
+          "sourceKey": "busmap:hn:station:455",
+          "name": "Đối diện 447 Ngọc Lâm",
+          "address": "Vườn hoa Gia Lâm",
+          "lat": 21.04905,
+          "lng": 105.875967
+        },
+        {
+          "sourceKey": "busmap:hn:station:6167",
+          "name": "Phòng Công Chứng số 2 TPHN",
+          "address": "658 Nguyễn Văn Cừ",
+          "lat": 21.0524,
+          "lng": 105.88605
+        },
+        {
+          "sourceKey": "busmap:hn:station:1202",
+          "name": "Cây xăng số 84 Cầu Chui (BĐX Gia Thụy)",
+          "address": "Nguyễn Văn Linh",
+          "lat": 21.053117,
+          "lng": 105.8894
+        },
+        {
+          "sourceKey": "busmap:hn:station:1203",
+          "name": "Đối diện Savico MegaMall Long Biên",
+          "address": "Nguyễn Văn Linh",
+          "lat": 21.049883,
+          "lng": 105.891833
+        },
+        {
+          "sourceKey": "busmap:hn:station:1204",
+          "name": "Đối diện Công ty nước sạch",
+          "address": "Nguyễn Văn Linh",
+          "lat": 21.046167,
+          "lng": 105.894183
+        },
+        {
+          "sourceKey": "busmap:hn:station:1205",
+          "name": "Đối diện UBND phường Phúc Đồng",
+          "address": "274 Nguyễn Văn Linh",
+          "lat": 21.038367,
+          "lng": 105.8983
+        },
+        {
+          "sourceKey": "busmap:hn:station:1206",
+          "name": "523 Nguyễn Văn Linh - Khu CN Sài Đồng",
+          "address": "Khu CN Sài Đồng - Hanel - Đ/d 523 Nguyễn Văn Linh",
+          "lat": 21.03175,
+          "lng": 105.90975
+        },
+        {
+          "sourceKey": "busmap:hn:station:1207",
+          "name": "693 Nguyễn Văn Linh - ngã 3 Thạch Bàn",
+          "address": "Đường vào Thạch Bàn - Đ/d 693 Nguyễn Văn Linh",
+          "lat": 21.029767,
+          "lng": 105.914467
+        },
+        {
+          "sourceKey": "busmap:hn:station:1208",
+          "name": "Công ty May 10",
+          "address": "Đối diện Công ty May 10 - Nguyễn Văn Linh",
+          "lat": 21.028117,
+          "lng": 105.920079
+        },
+        {
+          "sourceKey": "busmap:hn:station:1189",
+          "name": "Ngã 3 cầu Thanh Trì - Nguyễn Đức Thuận",
+          "address": "Qua ngã 3 cầu Thanh Trì - Nguyễn Đức Thuận",
+          "lat": 21.023467,
+          "lng": 105.9319
+        },
+        {
+          "sourceKey": "busmap:hn:station:1190",
+          "name": "Bưu cục Trâu Quỳ",
+          "address": "Đối diện bưu điện Trâu Quỳ - Nguyễn Đức Thuận",
+          "lat": 21.021591,
+          "lng": 105.93654
+        },
+        {
+          "sourceKey": "busmap:hn:station:1148",
+          "name": "Ngã 3 Ngô Xuân Quảng - Nguyễn Mậu Tài",
+          "address": "Ngã 3 Ngô Xuân Quảng - Nguyễn Mậu Tài",
+          "lat": 21.018583,
+          "lng": 105.937033
+        },
+        {
+          "sourceKey": "busmap:hn:station:1149",
+          "name": "Cửa hàng Xăng dầu số 100 - 234 Ngô Xuân Quảng",
+          "address": "Cửa hàng Xăng dầu số 100 - 234 Ngô Xuân Quảng",
+          "lat": 21.013117,
+          "lng": 105.936133
+        },
+        {
+          "sourceKey": "busmap:hn:station:1150",
+          "name": "Số 14 đường Học Viện Nông Nghiệp",
+          "address": "Số 14 đường Học Viện Nông Nghiệp",
+          "lat": 21.00885,
+          "lng": 105.934
+        },
+        {
+          "sourceKey": "busmap:hn:station:1765",
+          "name": "(B) Học viện Nông Nghiệp Việt Nam",
+          "address": "Đường nội bộ HV Nông nghiệp I",
+          "lat": 21.00489,
+          "lng": 105.932815
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "Tuyến 16 - [16] Bến xe Mỹ Đình - Bến xe Nước Ngầm",
+      "color": "#FF9800",
+      "status": "active",
+      "startTime": "04:50",
+      "endTime": "21:20",
+      "frequency": 14,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1744",
+          "name": "(A) BX Mỹ Đình",
+          "address": "Tuyến 16",
+          "lat": 21.02813,
+          "lng": 105.77843
+        },
+        {
+          "sourceKey": "busmap:hn:station:578",
+          "name": "Đối diện Bến xe khách Mỹ Đình",
+          "address": "Phạm Hùng (cột trước)",
+          "lat": 21.027115,
+          "lng": 105.779449
+        },
+        {
+          "sourceKey": "busmap:hn:station:580",
+          "name": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "address": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "lat": 21.0344,
+          "lng": 105.780433
+        },
+        {
+          "sourceKey": "busmap:hn:station:6220",
+          "name": "Tòa nhà Indochina Tower",
+          "address": "Đối diện ĐHQG Hà Nội",
+          "lat": 21.036589,
+          "lng": 105.781974
+        },
+        {
+          "sourceKey": "busmap:hn:station:2114",
+          "name": "Đối Diện HV Báo Chí Và Tuyên Truyền - 79 Xuân thủy",
+          "address": "79 Xuân Thủy (Đối Diện HV Báo Chí Và Tuyên Truyền)",
+          "lat": 21.036352,
+          "lng": 105.788399
+        },
+        {
+          "sourceKey": "busmap:hn:station:4841",
+          "name": "331 Cầu Giấy",
+          "address": "331 Cầu Giấy",
+          "lat": 21.03565,
+          "lng": 105.791783333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:6401",
+          "name": "Ga Chùa Hà - đối diện Discovery Complex (Cầu Giấy)",
+          "address": "Ga Chùa Hà - đối diện Discovery Complex",
+          "lat": 21.034869,
+          "lng": 105.7943
+        },
+        {
+          "sourceKey": "busmap:hn:station:58",
+          "name": "165 Cầu Giấy",
+          "address": "Bưu điện Cầu Giấy",
+          "lat": 21.0325666666667,
+          "lng": 105.7986
+        },
+        {
+          "sourceKey": "busmap:hn:station:138",
+          "name": "Cầu Yên Hòa, Láng",
+          "address": "Đối diện 1166 đường Láng",
+          "lat": 21.0268666666667,
+          "lng": 105.798866666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:139",
+          "name": "Đối diện 1014 Đường Láng",
+          "address": "Cầu Cót",
+          "lat": 21.0230666666667,
+          "lng": 105.799316666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:140",
+          "name": "Đối diện 794 Đường Láng",
+          "address": "Đối diện 794 Đường Láng",
+          "lat": 21.017933,
+          "lng": 105.80285
+        },
+        {
+          "sourceKey": "busmap:hn:station:141",
+          "name": "Đối diện 608 Đường Láng",
+          "address": "Đối diện 608 Đường Láng",
+          "lat": 21.01405,
+          "lng": 105.806367
+        },
+        {
+          "sourceKey": "busmap:hn:station:142",
+          "name": "Đối diện Chợ Láng Hạ B",
+          "address": "564 Đường Láng",
+          "lat": 21.0124,
+          "lng": 105.808583
+        },
+        {
+          "sourceKey": "busmap:hn:station:143",
+          "name": "Đối diện 498 Đường Láng",
+          "address": "Đối diện 498 Đường Láng",
+          "lat": 21.0101,
+          "lng": 105.811966666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:5004",
+          "name": "Ga Láng - Đối diện 220 Đường Láng",
+          "address": "Đối diện 220 Đường Láng",
+          "lat": 21.00580636690068,
+          "lng": 105.81655740737916
+        },
+        {
+          "sourceKey": "busmap:hn:station:145",
+          "name": "Flatfom dành riêng cho xe buýt trước nhà 45 Đường Láng",
+          "address": "Flatfom dành riêng cho xe buýt trước nhà 45 Đường Láng",
+          "lat": 21.0036333333333,
+          "lng": 105.81855
+        },
+        {
+          "sourceKey": "busmap:hn:station:5194",
+          "name": "225 Trường Chinh",
+          "address": "225 Trường Chinh",
+          "lat": 21.00145,
+          "lng": 105.82615
+        },
+        {
+          "sourceKey": "busmap:hn:station:812",
+          "name": "173B Trường Chinh - Trước Trống Đồng - Cảnh Hồ",
+          "address": "173B Trường Chinh - Trước Trống Đồng - Cảnh Hồ",
+          "lat": 20.999992206184924,
+          "lng": 105.8302313227002
+        },
+        {
+          "sourceKey": "busmap:hn:station:815",
+          "name": "Số 107 Trường Chinh",
+          "address": "Số 107 Trường Chinh",
+          "lat": 20.998417,
+          "lng": 105.838267
+        },
+        {
+          "sourceKey": "busmap:hn:station:159",
+          "name": "196 Giải Phóng",
+          "address": "Ngân hàng Nông nghiệp & PTNT Chi nhánh Nam Hà Nội",
+          "lat": 20.99317585843358,
+          "lng": 105.84103526454447
+        },
+        {
+          "sourceKey": "busmap:hn:station:160",
+          "name": "352 Giải Phóng",
+          "address": "352 Giải Phóng",
+          "lat": 20.9876,
+          "lng": 105.84095
+        },
+        {
+          "sourceKey": "busmap:hn:station:161",
+          "name": "Đối diện 807 Giải Phóng",
+          "address": "Đối diện 807 Giải Phóng",
+          "lat": 20.984233,
+          "lng": 105.840917
+        },
+        {
+          "sourceKey": "busmap:hn:station:162",
+          "name": "Bến xe Giáp Bát",
+          "address": "Đối diện Bến xe Giáp Bát - Giải Phóng",
+          "lat": 20.980383,
+          "lng": 105.84085
+        },
+        {
+          "sourceKey": "busmap:hn:station:163",
+          "name": "Ga Giáp Bát - Giải phóng",
+          "address": "Ga Giáp Bát - Đối diện 1035 Giải Phóng",
+          "lat": 20.97616654936769,
+          "lng": 105.8407509326935
+        },
+        {
+          "sourceKey": "busmap:hn:station:164",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đối diện 1251 Giải Phóng",
+          "lat": 20.971783,
+          "lng": 105.840767
+        },
+        {
+          "sourceKey": "busmap:hn:station:429",
+          "name": "Đối diện bến xe Nước Ngầm, Ngọc hồi",
+          "address": "Số 2 Ngọc Hồi, đối diện tập thể bến xe Nước Ngầm",
+          "lat": 20.964205,
+          "lng": 105.841781
+        },
+        {
+          "sourceKey": "busmap:hn:station:1693",
+          "name": "BX Nước Ngầm",
+          "address": "bên ngoài hàng rào BX Nước Ngầm",
+          "lat": 20.964800889324785,
+          "lng": 105.84218323230743
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "Tuyến 17 - [17] Long Biên - Sân bay Nội Bài (điểm đỗ xe buýt nhà ga T1).",
+      "color": "#9C27B0",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:00",
+      "frequency": 13,
+      "price": 30000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1715",
+          "name": "(A) Long Biên",
+          "address": "Tuyến 17",
+          "lat": 21.043233,
+          "lng": 105.847763
+        },
+        {
+          "sourceKey": "busmap:hn:station:866",
+          "name": "Điểm trung chuyển Long Biên (E3.3)",
+          "address": "Điểm trung chuyển Long Biên (điểm E3.1)",
+          "lat": 21.04133,
+          "lng": 105.84935
+        },
+        {
+          "sourceKey": "busmap:hn:station:770",
+          "name": "Đối diện Ô Quan Chưởng",
+          "address": "80 Trần Nhật Duật",
+          "lat": 21.03772,
+          "lng": 105.85298
+        },
+        {
+          "sourceKey": "busmap:hn:station:555",
+          "name": "Tổng cục Hải Quan",
+          "address": "162 Nguyễn Văn Cừ (cột sau)",
+          "lat": 21.042649,
+          "lng": 105.871032
+        },
+        {
+          "sourceKey": "busmap:hn:station:556",
+          "name": "358 Nguyễn Văn Cừ",
+          "address": "358 - 360 Nguyễn Văn Cừ",
+          "lat": 21.045683,
+          "lng": 105.875983
+        },
+        {
+          "sourceKey": "busmap:hn:station:557",
+          "name": "436 - 438 Nguyễn Văn Cừ",
+          "address": "436 - 438 Nguyễn Văn Cừ",
+          "lat": 21.047071,
+          "lng": 105.87885
+        },
+        {
+          "sourceKey": "busmap:hn:station:3416",
+          "name": "548 Nguyễn Văn Cừ",
+          "address": "Số 548 Nguyễn Văn Cừ",
+          "lat": 21.048514,
+          "lng": 105.881765
+        },
+        {
+          "sourceKey": "busmap:hn:station:6167",
+          "name": "Phòng Công Chứng số 2 TPHN",
+          "address": "658 Nguyễn Văn Cừ",
+          "lat": 21.0524,
+          "lng": 105.88605
+        },
+        {
+          "sourceKey": "busmap:hn:station:420",
+          "name": "Bưu điện Đức Giang",
+          "address": "18-20 Ngô Gia Tự",
+          "lat": 21.056712,
+          "lng": 105.889698
+        },
+        {
+          "sourceKey": "busmap:hn:station:421",
+          "name": "170 Ngô Gia Tự - UBND Phường Đức Giang",
+          "address": "Số 170 - 172 Ngô Gia Tự",
+          "lat": 21.061317,
+          "lng": 105.894067
+        },
+        {
+          "sourceKey": "busmap:hn:station:422",
+          "name": "Số 316 - 318 Ngô Gia Tự",
+          "address": "Số 316 - 318 Ngô Gia Tự",
+          "lat": 21.064617,
+          "lng": 105.897283
+        },
+        {
+          "sourceKey": "busmap:hn:station:423",
+          "name": "368 Ngô Gia Tự",
+          "address": "Ngã 3 đường vào công An quận Long Biên",
+          "lat": 21.068517,
+          "lng": 105.90105
+        },
+        {
+          "sourceKey": "busmap:hn:station:424",
+          "name": "608 - 610 Ngô Gia Tự",
+          "address": "gần đường lên Cầu Đuống",
+          "lat": 21.074547,
+          "lng": 105.907041
+        },
+        {
+          "sourceKey": "busmap:hn:station:196",
+          "name": "Cạnh đường vào Phù Đổng",
+          "address": "44 Hà Huy Tập",
+          "lat": 21.079559,
+          "lng": 105.911562
+        },
+        {
+          "sourceKey": "busmap:hn:station:1340",
+          "name": "102 Thiên Đức, Yên Viên",
+          "address": "Quốc lộ 3",
+          "lat": 21.080005,
+          "lng": 105.906841
+        },
+        {
+          "sourceKey": "busmap:hn:station:1341",
+          "name": "Cạnh ngõ vào Cty CP vật tư Mỏ Địa chất",
+          "address": "Quốc lộ 3",
+          "lat": 21.087967,
+          "lng": 105.902967
+        },
+        {
+          "sourceKey": "busmap:hn:station:1342",
+          "name": "Đối diện Công ty Đúc Mai Lâm",
+          "address": "Quốc lộ 3",
+          "lat": 21.092883,
+          "lng": 105.894467
+        },
+        {
+          "sourceKey": "busmap:hn:station:1343",
+          "name": "Đối diện Trung tâm lưu trú Lộc Hà",
+          "address": "Quốc lộ 3",
+          "lat": 21.100635,
+          "lng": 105.884259
+        },
+        {
+          "sourceKey": "busmap:hn:station:1344",
+          "name": "Đường vào khu di tích Cổ Loa",
+          "address": "Km 5 Quốc lộ 3",
+          "lat": 21.102733,
+          "lng": 105.872417
+        },
+        {
+          "sourceKey": "busmap:hn:station:1345",
+          "name": "Cây đa Bác Hồ",
+          "address": "Km 5+800 Quốc lộ 3",
+          "lat": 21.102933,
+          "lng": 105.864983
+        },
+        {
+          "sourceKey": "busmap:hn:station:1346",
+          "name": "Cạnh Công Ty Bê Tông Appha, Đông Hội",
+          "address": "Km 6+600 Quốc lộ 3",
+          "lat": 21.10415,
+          "lng": 105.857183
+        },
+        {
+          "sourceKey": "busmap:hn:station:1347",
+          "name": "Thôn Vạn Lộc",
+          "address": "Qua đối diện ngã 3 đường tránh QL5 200m",
+          "lat": 21.109733,
+          "lng": 105.84945
+        },
+        {
+          "sourceKey": "busmap:hn:station:1348",
+          "name": "Ngã 3 Vĩnh Ngọc",
+          "address": "Km 9+230 Quốc lộ 3",
+          "lat": 21.120483,
+          "lng": 105.84515
+        },
+        {
+          "sourceKey": "busmap:hn:station:1351",
+          "name": "Trước cổng công ty Minh Cường 50m",
+          "address": "Km 10+900 Quốc lộ 3",
+          "lat": 21.127283,
+          "lng": 105.843883
+        },
+        {
+          "sourceKey": "busmap:hn:station:1349",
+          "name": "Trước ngã 3 công viên Cầu Đôi 70m",
+          "address": "Km11 Quốc lộ 3 (chiều Hà Nội - Đông Anh)",
+          "lat": 21.132867,
+          "lng": 105.843633
+        },
+        {
+          "sourceKey": "busmap:hn:station:1352",
+          "name": "Đối diện Cty xây lắp Điện 4, Thị trấn Đông Anh",
+          "address": "Km 11+100 Quốc lộ 3",
+          "lat": 21.139733,
+          "lng": 105.844617
+        },
+        {
+          "sourceKey": "busmap:hn:station:1353",
+          "name": "Nhà máy tấm lợp Đông Anh",
+          "address": "Km 12+650 Quốc lộ 3",
+          "lat": 21.148067,
+          "lng": 105.845883
+        },
+        {
+          "sourceKey": "busmap:hn:station:1354",
+          "name": "Nhà máy kết cấu thép kim khí Đông Anh",
+          "address": "Km 13+300 Quốc lộ 3",
+          "lat": 21.15394,
+          "lng": 105.846422
+        },
+        {
+          "sourceKey": "busmap:hn:station:1355",
+          "name": "Qua đường vào Cty CP chế tạo thiết bị điện Đông Anh 50m",
+          "address": "Quốc lộ 3",
+          "lat": 21.164167,
+          "lng": 105.846633
+        },
+        {
+          "sourceKey": "busmap:hn:station:1356",
+          "name": "Công ty Chế tạo máy điện Việt Hung",
+          "address": "Km 15+240 Quốc lộ 3",
+          "lat": 21.171617,
+          "lng": 105.846817
+        },
+        {
+          "sourceKey": "busmap:hn:station:3106",
+          "name": "Đường vào Trại gà Nguyên Khê",
+          "address": "Km 16+000 Quốc lộ",
+          "lat": 21.176841,
+          "lng": 105.847023
+        },
+        {
+          "sourceKey": "busmap:hn:station:1358",
+          "name": "Gần cầu Phù Lỗ – Km 16+900 Quốc lộ 3",
+          "address": "Gần cầu Phù Lỗ – Km 16+900 Quốc lộ 3",
+          "lat": 21.187633,
+          "lng": 105.8483
+        },
+        {
+          "sourceKey": "busmap:hn:station:1359",
+          "name": "Đối diện Trường THPT Lam Hồng",
+          "address": "Km 17+850 Quốc lộ 3",
+          "lat": 21.19485,
+          "lng": 105.848233
+        },
+        {
+          "sourceKey": "busmap:hn:station:1328",
+          "name": "Cửa hàng KD tổng hợp số 3 - Km 0+200 Quốc lộ 2",
+          "address": "Cửa hàng KD tổng hợp số 3 - Km 0+200 Quốc lộ 2",
+          "lat": 21.1996282254022,
+          "lng": 105.846377728837
+        },
+        {
+          "sourceKey": "busmap:hn:station:58058",
+          "name": "Trường trung học cơ sở Nguyễn Du",
+          "address": "Phù Lỗ - QL2",
+          "lat": 21.198513,
+          "lng": 105.840202
+        },
+        {
+          "sourceKey": "busmap:hn:station:58059",
+          "name": "Đường 2 khu 1 - Thái Phù - Sóc Sơn",
+          "address": "Thái Phù - Sóc Sơn - QL2",
+          "lat": 21.198220818595388,
+          "lng": 105.83044412372203
+        },
+        {
+          "sourceKey": "busmap:hn:station:1332",
+          "name": "Số 9 Phủ Lỗ",
+          "address": "Km 2+400 Quốc lộ 2",
+          "lat": 21.198333,
+          "lng": 105.825383
+        },
+        {
+          "sourceKey": "busmap:hn:station:1333",
+          "name": "Đối diện bưu điện Phú Minh",
+          "address": "Km 2+850 Quốc lộ 2",
+          "lat": 21.198383,
+          "lng": 105.820267
+        },
+        {
+          "sourceKey": "busmap:hn:station:900",
+          "name": "Đối diện Cty CP giao nhận kho vận hàng không TBS",
+          "address": "Nội Bài",
+          "lat": 21.206117,
+          "lng": 105.817317
+        },
+        {
+          "sourceKey": "busmap:hn:station:915",
+          "name": "Công ty xăng dầu hàng không Việt Nam (Vinapco)",
+          "address": "đường Võ Văn Kiệt",
+          "lat": 21.209768,
+          "lng": 105.814383
+        },
+        {
+          "sourceKey": "busmap:hn:station:58088",
+          "name": "Cty Kỹ thuật hàng không VAECO Nội Bài",
+          "address": "Đường Võ Nguyên Giáp",
+          "lat": 21.210692,
+          "lng": 105.811615
+        },
+        {
+          "sourceKey": "busmap:hn:station:916",
+          "name": "Nhà ga hàng hóa Nội Bài",
+          "address": "đường Võ Văn Kiệt",
+          "lat": 21.211933,
+          "lng": 105.807317
+        },
+        {
+          "sourceKey": "busmap:hn:station:1782",
+          "name": "(B) Nội Bài",
+          "address": "Tuyến 17",
+          "lat": 21.214302,
+          "lng": 105.801289
+        }
+      ]
+    },
+    {
+      "code": "22A",
+      "name": "Tuyến 22A - [22A] Bến xe Gia Lâm - Khu đô thị Kiến Hưng",
+      "color": "#00BCD4",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:35",
+      "frequency": 11,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:2851",
+          "name": "(A) BX Gia Lâm",
+          "address": "Tuyến 22A",
+          "lat": 21.047883,
+          "lng": 105.878583
+        },
+        {
+          "sourceKey": "busmap:hn:station:550",
+          "name": "549 Nguyễn Văn Cừ",
+          "address": "549 Nguyễn Văn Cừ (cột trước)",
+          "lat": 21.0497,
+          "lng": 105.883467
+        },
+        {
+          "sourceKey": "busmap:hn:station:552",
+          "name": "Trường THPT Nguyễn Gia Thiều",
+          "address": "Cty Cầu 5 Thăng Long - 307 Nguyễn Văn Cừ",
+          "lat": 21.04555,
+          "lng": 105.875283
+        },
+        {
+          "sourceKey": "busmap:hn:station:553",
+          "name": "Trường tiểu học Ái Mộ - 135B Nguyễn Văn Cừ",
+          "address": "135 Nguyễn Văn Cừ",
+          "lat": 21.042352,
+          "lng": 105.870446
+        },
+        {
+          "sourceKey": "busmap:hn:station:868",
+          "name": "Điểm trung chuyển Long Biên (E3.1)",
+          "address": "E3.1 Điểm trung chuyển Long Biên",
+          "lat": 21.04108800302518,
+          "lng": 105.84964513778688
+        },
+        {
+          "sourceKey": "busmap:hn:station:638",
+          "name": "10-12 Quán Thánh",
+          "address": "10-12 Quán Thánh",
+          "lat": 21.040365,
+          "lng": 105.846823
+        },
+        {
+          "sourceKey": "busmap:hn:station:639",
+          "name": "86 Quán Thánh",
+          "address": "Bộ chỉ huy Quân sự Quận Ba Đình",
+          "lat": 21.04175,
+          "lng": 105.844217
+        },
+        {
+          "sourceKey": "busmap:hn:station:214",
+          "name": "Bộ Kế hoạch & Đầu tư",
+          "address": "Ngã 3 Hoàng Diệu - Hoàng Văn Thụ",
+          "lat": 21.037868637136672,
+          "lng": 105.83951175212862
+        },
+        {
+          "sourceKey": "busmap:hn:station:215",
+          "name": "34 Hoàng Diệu - Tượng đài Bắc Sơn",
+          "address": "34 - 36 Hoàng Diệu",
+          "lat": 21.03415,
+          "lng": 105.83893
+        },
+        {
+          "sourceKey": "busmap:hn:station:774",
+          "name": "60 Trần Phú - Bệnh viện Xanh pôn",
+          "address": "Đối diện BV Xanh pôn - 60 Trần Phú (Bộ Tư pháp)",
+          "lat": 21.031665,
+          "lng": 105.835885
+        },
+        {
+          "sourceKey": "busmap:hn:station:4309",
+          "name": "Nhà chờ BRT Kim Mã_biển 2",
+          "address": "Nhà chờ BRT số 1 Kim Mã_ biển sau",
+          "lat": 21.03191538070277,
+          "lng": 105.82963585853578
+        },
+        {
+          "sourceKey": "busmap:hn:station:174",
+          "name": "Bộ Y Tế",
+          "address": "138A Giảng Võ",
+          "lat": 21.028417,
+          "lng": 105.825467
+        },
+        {
+          "sourceKey": "busmap:hn:station:59687",
+          "name": "146 Giảng Võ",
+          "address": "Đối diện 251 Giảng Võ",
+          "lat": 21.024833,
+          "lng": 105.821117
+        },
+        {
+          "sourceKey": "busmap:hn:station:59688",
+          "name": "Fortuna Láng Hạ",
+          "address": "Láng Hạ",
+          "lat": 21.0213051,
+          "lng": 105.8181775
+        },
+        {
+          "sourceKey": "busmap:hn:station:322",
+          "name": "Viện Công Nghệ Xạ Hiếm",
+          "address": "48 Láng Hạ",
+          "lat": 21.0132833333333,
+          "lng": 105.812683333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:363",
+          "name": "Sư đoàn Phòng không 361 - Lê Văn Lương",
+          "address": "Sư đoàn Phòng không 361 - Lê Văn Lương",
+          "lat": 21.007339,
+          "lng": 105.807306
+        },
+        {
+          "sourceKey": "busmap:hn:station:364",
+          "name": "Nhà 18T1 KĐT Trung Hòa Nhân Chính",
+          "address": "Lê Văn Lương",
+          "lat": 21.005887,
+          "lng": 105.805288
+        },
+        {
+          "sourceKey": "busmap:hn:station:365",
+          "name": "Nhà N2E KĐT Trung Hòa Nhân Chính",
+          "address": "Lê Văn Lương",
+          "lat": 21.002933,
+          "lng": 105.800967
+        },
+        {
+          "sourceKey": "busmap:hn:station:2827",
+          "name": "39 Khuất Duy Tiến",
+          "address": "39 Khuất Duy Tiến",
+          "lat": 20.998017,
+          "lng": 105.7978
+        },
+        {
+          "sourceKey": "busmap:hn:station:260",
+          "name": "UBND Quận Thanh Xuân",
+          "address": "UBND Quận Thanh Xuân",
+          "lat": 20.994726,
+          "lng": 105.800373
+        },
+        {
+          "sourceKey": "busmap:hn:station:544",
+          "name": "Bách hóa Thanh Xuân, Nguyễn Trãi",
+          "address": "Bách hóa Thanh Xuân (chân cầu đi bộ)- đường Nguyễn Trãi",
+          "lat": 20.990467,
+          "lng": 105.801383
+        },
+        {
+          "sourceKey": "busmap:hn:station:57971",
+          "name": "216 Nguyễn Trãi - Nhà Văn hóa tổ dân phố số 8 & 9 Phường Trung Văn",
+          "address": "216 Nguyễn Trãi (trước NVH TDP số 8 & số 9)",
+          "lat": 20.9878,
+          "lng": 105.7976
+        },
+        {
+          "sourceKey": "busmap:hn:station:537",
+          "name": "Công ty CP Công trình GT, Nguyễn trãi",
+          "address": "873 - Nguyễn Trãi",
+          "lat": 20.985791,
+          "lng": 105.794872
+        },
+        {
+          "sourceKey": "busmap:hn:station:59079",
+          "name": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "address": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "lat": 20.983446,
+          "lng": 105.791662
+        },
+        {
+          "sourceKey": "busmap:hn:station:798",
+          "name": "Học viện Bưu chính viễn thông, Trần Phú (HĐ)",
+          "address": "Học viện công nghệ bưu chính viễn thông - Trần Phú",
+          "lat": 20.980401,
+          "lng": 105.7879
+        },
+        {
+          "sourceKey": "busmap:hn:station:59052",
+          "name": "Ga Văn Quán",
+          "address": "126 Trần Phú (HĐ), dưới Ga Văn Quán",
+          "lat": 20.9778646,
+          "lng": 105.7845587
+        },
+        {
+          "sourceKey": "busmap:hn:station:800",
+          "name": "ĐD Sở Tư pháp Hà Nội - Trần Phú (HĐ)",
+          "address": "Khách sạn Sông Nhuệ (148 Trần Phú- Hà Đông)",
+          "lat": 20.975483,
+          "lng": 105.78155
+        },
+        {
+          "sourceKey": "busmap:hn:station:621",
+          "name": "Đối diện Trung tâm Văn hóa Thông tin Tỉnh Hà Tây",
+          "address": "Phùng Hưng (Hà Đông)",
+          "lat": 20.972467,
+          "lng": 105.782417
+        },
+        {
+          "sourceKey": "busmap:hn:station:622",
+          "name": "70 Phùng Hưng",
+          "address": "Hà Đông",
+          "lat": 20.968983,
+          "lng": 105.785383
+        },
+        {
+          "sourceKey": "busmap:hn:station:623",
+          "name": "Học viện Quân Y",
+          "address": "Phùng Hưng (Hà Đông)",
+          "lat": 20.966883,
+          "lng": 105.789483
+        },
+        {
+          "sourceKey": "busmap:hn:station:1058",
+          "name": "Cổng thôn Yên Xá",
+          "address": "89 Cầu Bươu",
+          "lat": 20.964483,
+          "lng": 105.794083
+        },
+        {
+          "sourceKey": "busmap:hn:station:3767",
+          "name": "Đối diện Nhà CT2A Khu đô thị Xa La",
+          "address": "Đường Phúc La",
+          "lat": 20.96236,
+          "lng": 105.794507
+        },
+        {
+          "sourceKey": "busmap:hn:station:2140",
+          "name": "Tường rào khách sạn Mường Thanh",
+          "address": "KĐT Xa La - Đường Phúc La",
+          "lat": 20.960617,
+          "lng": 105.792283
+        },
+        {
+          "sourceKey": "busmap:hn:station:2144",
+          "name": "Đối diện 17 Tổ 10 Kiến Hưng",
+          "address": "Phố Mậu Lương",
+          "lat": 20.957567,
+          "lng": 105.790717
+        },
+        {
+          "sourceKey": "busmap:hn:station:2145",
+          "name": "Đối diện sân bóng Mậu Lương",
+          "address": "Đường Lê Xuân Điệp",
+          "lat": 20.955917,
+          "lng": 105.79285
+        },
+        {
+          "sourceKey": "busmap:hn:station:2146",
+          "name": "Đối diện khu chung cư và nhà ở quân đội",
+          "address": "Bộ Quốc Phòng - Đường Lê Xuân Điệp",
+          "lat": 20.951033,
+          "lng": 105.7913
+        },
+        {
+          "sourceKey": "busmap:hn:station:59081",
+          "name": "Giữa số nhà DG10-14 và DG10-26 - Đường Lê Xuân Điệp",
+          "address": "Giữa số nhà DG10-14 và DG10-26 - Đường Lê Xuân Điệp",
+          "lat": 20.947886,
+          "lng": 105.790258
+        },
+        {
+          "sourceKey": "busmap:hn:station:59082",
+          "name": "(B) Điểm đầu cuối KĐT Kiến Hưng",
+          "address": "KĐT Kiến Hưng_Tòa nhà 19T6",
+          "lat": 20.9451,
+          "lng": 105.792517
+        }
+      ]
+    },
+    {
+      "code": "22B",
+      "name": "Tuyến 22B - [22B] Bến xe Giáp Bát - Đô Nghĩa (Hà Đông)",
+      "color": "#00BCD4",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:30",
+      "frequency": 28,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:3165",
+          "name": "(A) BX Giáp Bát",
+          "address": "Tuyến 22C",
+          "lat": 20.97985,
+          "lng": 105.841917
+        },
+        {
+          "sourceKey": "busmap:hn:station:162",
+          "name": "Bến xe Giáp Bát",
+          "address": "Đối diện Bến xe Giáp Bát - Giải Phóng",
+          "lat": 20.980383,
+          "lng": 105.84085
+        },
+        {
+          "sourceKey": "busmap:hn:station:163",
+          "name": "Ga Giáp Bát - Giải phóng",
+          "address": "Ga Giáp Bát - Đối diện 1035 Giải Phóng",
+          "lat": 20.97616654936769,
+          "lng": 105.8407509326935
+        },
+        {
+          "sourceKey": "busmap:hn:station:164",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đối diện 1251 Giải Phóng",
+          "lat": 20.971783,
+          "lng": 105.840767
+        },
+        {
+          "sourceKey": "busmap:hn:station:490",
+          "name": "Gần đường vào KĐT Đại Kim - Nguyễn Hữu Thọ",
+          "address": "45 Nguyễn Hữu Thọ",
+          "lat": 20.97105,
+          "lng": 105.8364
+        },
+        {
+          "sourceKey": "busmap:hn:station:491",
+          "name": "Đối diện đài tưởng niệm chủ tịch HCM - Nguyễn Hữu Thọ",
+          "address": "đường Nguyễn Hữu Thọ",
+          "lat": 20.96965,
+          "lng": 105.830983
+        },
+        {
+          "sourceKey": "busmap:hn:station:56",
+          "name": "Cầu Dậu - Khu đô thị Bắc Linh Đàm",
+          "address": "Điểm xén hè (Toà CT2 - KĐT Bắc Linh Đàm) - Cầu Dậu",
+          "lat": 20.970537,
+          "lng": 105.826017
+        },
+        {
+          "sourceKey": "busmap:hn:station:567",
+          "name": "Khu đô thị Kim Văn, Kim Lũ - Nghiêm Xuân Yêm",
+          "address": "Trung tâm thi đấu và huấn luyện thể thao CAND",
+          "lat": 20.9723,
+          "lng": 105.820717
+        },
+        {
+          "sourceKey": "busmap:hn:station:568",
+          "name": "Trường Đại học Thăng Long - NGhiêm Xuân Yêm",
+          "address": "Trường Đại học Thăng Long - Nghiêm Xuân Yêm",
+          "lat": 20.976383,
+          "lng": 105.814667
+        },
+        {
+          "sourceKey": "busmap:hn:station:569",
+          "name": "Ngã 3 Nguyễn Xiển - Hoàng Đạo Thành",
+          "address": "Trước ngã 3 Nguyễn Xiển - Hoàng Đạo Thành",
+          "lat": 20.98145,
+          "lng": 105.810967
+        },
+        {
+          "sourceKey": "busmap:hn:station:565",
+          "name": "Tập thể cao su Sao vàng - Nguyễn Xiển",
+          "address": "Tập thể cao su Sao vàng - Nguyễn Xiển",
+          "lat": 20.985383,
+          "lng": 105.808067
+        },
+        {
+          "sourceKey": "busmap:hn:station:566",
+          "name": "Viện Công nghệ thực phẩm Trung Ương - Nguyễn Xiển",
+          "address": "Viện Công nghệ thực phẩm TW - Nguyễn Xiển",
+          "lat": 20.9899,
+          "lng": 105.804767
+        },
+        {
+          "sourceKey": "busmap:hn:station:544",
+          "name": "Bách hóa Thanh Xuân, Nguyễn Trãi",
+          "address": "Bách hóa Thanh Xuân (chân cầu đi bộ)- đường Nguyễn Trãi",
+          "lat": 20.990467,
+          "lng": 105.801383
+        },
+        {
+          "sourceKey": "busmap:hn:station:536",
+          "name": "Đại Học Hà Nội",
+          "address": "204-206 Nguyễn Trãi (Gần ngã 3 Nguyễn Trãi - LTV)",
+          "lat": 20.988163,
+          "lng": 105.798207
+        },
+        {
+          "sourceKey": "busmap:hn:station:537",
+          "name": "Công ty CP Công trình GT, Nguyễn trãi",
+          "address": "873 - Nguyễn Trãi",
+          "lat": 20.985791,
+          "lng": 105.794872
+        },
+        {
+          "sourceKey": "busmap:hn:station:797",
+          "name": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "address": "Số 10 Trần Phú - Siêu Thị Nguyễn Kim",
+          "lat": 20.983446,
+          "lng": 105.791662
+        },
+        {
+          "sourceKey": "busmap:hn:station:798",
+          "name": "Học viện Bưu chính viễn thông, Trần Phú (HĐ)",
+          "address": "Học viện công nghệ bưu chính viễn thông - Trần Phú",
+          "lat": 20.980401,
+          "lng": 105.7879
+        },
+        {
+          "sourceKey": "busmap:hn:station:799",
+          "name": "Big C Hà Đông - Hồ Gươm Plaza, Trần Phú (HĐ)",
+          "address": "106B - 106C Trần Phú (Hà Đông)",
+          "lat": 20.978596,
+          "lng": 105.785557
+        },
+        {
+          "sourceKey": "busmap:hn:station:800",
+          "name": "ĐD Sở Tư pháp Hà Nội - Trần Phú (HĐ)",
+          "address": "Khách sạn Sông Nhuệ (148 Trần Phú- Hà Đông)",
+          "lat": 20.975483,
+          "lng": 105.78155
+        },
+        {
+          "sourceKey": "busmap:hn:station:2644",
+          "name": "Số 2 Chu Văn An",
+          "address": "Hà Đông",
+          "lat": 20.974117,
+          "lng": 105.7783
+        },
+        {
+          "sourceKey": "busmap:hn:station:5190",
+          "name": "Cầu Cong",
+          "address": "Vạn Phúc",
+          "lat": 20.97735,
+          "lng": 105.775567
+        },
+        {
+          "sourceKey": "busmap:hn:station:2645",
+          "name": "Chùa Vạn Phúc",
+          "address": "Hà Đông",
+          "lat": 20.9797,
+          "lng": 105.7725
+        },
+        {
+          "sourceKey": "busmap:hn:station:2646",
+          "name": "Số 170 - 172 Vạn Phúc",
+          "address": "Hà Đông",
+          "lat": 20.98205,
+          "lng": 105.770833
+        },
+        {
+          "sourceKey": "busmap:hn:station:710",
+          "name": "Điểm xén hè qua ngã 4 Vạn Phúc",
+          "address": "Tố Hữu",
+          "lat": 20.980867,
+          "lng": 105.7674
+        },
+        {
+          "sourceKey": "busmap:hn:station:711",
+          "name": "Điểm xén hè gần đường vào KĐT Dương Nội",
+          "address": "đường Tố Hữu",
+          "lat": 20.976933,
+          "lng": 105.7624
+        },
+        {
+          "sourceKey": "busmap:hn:station:712",
+          "name": "Nhà chờ gần Nam Cường Building",
+          "address": "đường Tố Hữu",
+          "lat": 20.97475,
+          "lng": 105.75955
+        },
+        {
+          "sourceKey": "busmap:hn:station:713",
+          "name": "Nhà chờ gần đường vào KĐT An Hưng",
+          "address": "đường Tố Hữu",
+          "lat": 20.973017,
+          "lng": 105.757499
+        },
+        {
+          "sourceKey": "busmap:hn:station:3300",
+          "name": "Qua 100m cầu La Khê",
+          "address": "đường Tố Hữu",
+          "lat": 20.9706,
+          "lng": 105.754767
+        },
+        {
+          "sourceKey": "busmap:hn:station:2847",
+          "name": "Nghĩa trang La Khê",
+          "address": "Đường Yên Lộ",
+          "lat": 20.96625,
+          "lng": 105.751883
+        },
+        {
+          "sourceKey": "busmap:hn:station:3780",
+          "name": "Tòa nhà CT7F The Sparks Nam Cường",
+          "address": "Đường Yên Lộ",
+          "lat": 20.962467,
+          "lng": 105.747383
+        },
+        {
+          "sourceKey": "busmap:hn:station:3778",
+          "name": "Công ty cây xanh Việt Nam",
+          "address": "Yên Lộ",
+          "lat": 20.958467,
+          "lng": 105.740217
+        },
+        {
+          "sourceKey": "busmap:hn:station:59077",
+          "name": "(B) KĐT Đô Nghĩa",
+          "address": "KĐT Đô Nghĩa",
+          "lat": 20.9596262,
+          "lng": 105.7358873
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "name": "Tuyến 26 - [26] Mai Động - SVĐ Quốc gia",
+      "color": "#039BE5",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:00",
+      "frequency": 11,
+      "price": 30000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1721",
+          "name": "(A) Mai Động",
+          "address": "Cạnh chợ đền Lừ",
+          "lat": 20.982673,
+          "lng": 105.863411
+        },
+        {
+          "sourceKey": "busmap:hn:station:525",
+          "name": "Công ty da giầy Hà Nội",
+          "address": "441 Nguyễn Tam Trinh",
+          "lat": 20.98475,
+          "lng": 105.863833
+        },
+        {
+          "sourceKey": "busmap:hn:station:526",
+          "name": "251-253 Nguyễn Tam Trinh",
+          "address": "251-253 Nguyễn Tam Trinh",
+          "lat": 20.9888,
+          "lng": 105.863367
+        },
+        {
+          "sourceKey": "busmap:hn:station:293",
+          "name": "613 - 615 Kim Ngưu",
+          "address": "613 - 615 Kim Ngưu",
+          "lat": 20.997658257282403,
+          "lng": 105.86242318153384
+        },
+        {
+          "sourceKey": "busmap:hn:station:294",
+          "name": "377 Kim Ngưu",
+          "address": "377 Kim Ngưu",
+          "lat": 21.00212049165204,
+          "lng": 105.86194574832916
+        },
+        {
+          "sourceKey": "busmap:hn:station:684",
+          "name": "Qua cổng Bệnh viện Thanh Nhàn 50m, Thanh Nhàn",
+          "address": "42 Thanh Nhàn",
+          "lat": 21.002917,
+          "lng": 105.859233
+        },
+        {
+          "sourceKey": "busmap:hn:station:685",
+          "name": "Gần chung cư A3B (số 92) Thanh Nhàn",
+          "address": "Gần chung cư A3B (số 92) Thanh Nhàn",
+          "lat": 21.003083,
+          "lng": 105.853117
+        },
+        {
+          "sourceKey": "busmap:hn:station:345",
+          "name": "Qua Viện tin học pháp ngữ 20m, Lê Thanh Nghị",
+          "address": "Lê Thanh Nghị",
+          "lat": 21.002883,
+          "lng": 105.847483
+        },
+        {
+          "sourceKey": "busmap:hn:station:346",
+          "name": "170 - 172 Lê Thanh Nghị",
+          "address": "170 - 172 Lê Thanh Nghị",
+          "lat": 21.001899,
+          "lng": 105.844182
+        },
+        {
+          "sourceKey": "busmap:hn:station:58102",
+          "name": "17 Giải Phóng",
+          "address": "17 Giải Phóng",
+          "lat": 21.004559,
+          "lng": 105.84156
+        },
+        {
+          "sourceKey": "busmap:hn:station:591",
+          "name": "101A2 TT Trung Tự, Phạm Ngọc Thạch",
+          "address": "Phạm Ngọc Thạch",
+          "lat": 21.009733,
+          "lng": 105.835433
+        },
+        {
+          "sourceKey": "busmap:hn:station:58103",
+          "name": "88 Phạm Ngọc Thạch",
+          "address": "Quang Trung, Đống Đa, Hà Nội",
+          "lat": 21.006712,
+          "lng": 105.831856
+        },
+        {
+          "sourceKey": "busmap:hn:station:69",
+          "name": "Học Viện Ngân Hàng",
+          "address": "Học Viện Ngân Hàng",
+          "lat": 21.007485,
+          "lng": 105.828726
+        },
+        {
+          "sourceKey": "busmap:hn:station:4896",
+          "name": "54 Thái Hà",
+          "address": "54 Thái Hà",
+          "lat": 21.010683,
+          "lng": 105.822333
+        },
+        {
+          "sourceKey": "busmap:hn:station:673",
+          "name": "176 Thái Hà",
+          "address": "176 Thái Hà",
+          "lat": 21.0131,
+          "lng": 105.82
+        },
+        {
+          "sourceKey": "busmap:hn:station:674",
+          "name": "Rạp chiếu phim Quốc Gia, Thái Hà",
+          "address": "Rạp chiếu phim Quốc Gia",
+          "lat": 21.016067,
+          "lng": 105.8158
+        },
+        {
+          "sourceKey": "busmap:hn:station:247",
+          "name": "Đối diện Đài Truyền hình Hà Nội, Huỳnh Thúc Kháng",
+          "address": "5 Huỳnh Thúc Kháng",
+          "lat": 21.0170166666667,
+          "lng": 105.814233333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:248",
+          "name": "20 Huỳnh Thúc Kháng",
+          "address": "20 Huỳnh Thúc Kháng",
+          "lat": 21.0195,
+          "lng": 105.809125
+        },
+        {
+          "sourceKey": "busmap:hn:station:62",
+          "name": "Điểm trung chuyển Cầu Giấy - Thủ Lệ (cột sau)",
+          "address": "Thủ Lệ 02 - Cầu giấy đường trên cao",
+          "lat": 21.02925,
+          "lng": 105.803717
+        },
+        {
+          "sourceKey": "busmap:hn:station:4873",
+          "name": "Số 148-150 Cầu Giấy",
+          "address": "148 Cầu Giấy",
+          "lat": 21.0329166666667,
+          "lng": 105.798516666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:60",
+          "name": "Ga Chùa Hà",
+          "address": "Ga Chùa Hà",
+          "lat": 21.035185,
+          "lng": 105.794625
+        },
+        {
+          "sourceKey": "busmap:hn:station:65",
+          "name": "370 Cầu Giấy",
+          "address": "370 Cầu Giấy",
+          "lat": 21.035841,
+          "lng": 105.791915
+        },
+        {
+          "sourceKey": "busmap:hn:station:2111",
+          "name": "HV Báo chí Tuyên Truyền",
+          "address": "HV Báo chí Tuyên Truyền",
+          "lat": 21.036583,
+          "lng": 105.788433
+        },
+        {
+          "sourceKey": "busmap:hn:station:6189",
+          "name": "Chợ Xanh - Xuân Thủy",
+          "address": "Chợ Xanh",
+          "lat": 21.036683,
+          "lng": 105.78605
+        },
+        {
+          "sourceKey": "busmap:hn:station:2112",
+          "name": "Ga ĐHQGHN - Xuân Thủy",
+          "address": "ĐH Sư phạm Hà Nội",
+          "lat": 21.03678715491167,
+          "lng": 105.78258454799654
+        },
+        {
+          "sourceKey": "busmap:hn:station:245",
+          "name": "Đối diện ĐH Thương Mại",
+          "address": "6 Hồ Tùng Mậu (cột sau)",
+          "lat": 21.03785,
+          "lng": 105.774533
+        },
+        {
+          "sourceKey": "busmap:hn:station:4895",
+          "name": "Đối diện đài truyền hình công an nhân dân",
+          "address": "ANTV",
+          "lat": 21.0372,
+          "lng": 105.7714
+        },
+        {
+          "sourceKey": "busmap:hn:station:335",
+          "name": "Nhà CT2B KĐT Mỹ Đình",
+          "address": "Lê Đức Thọ",
+          "lat": 21.031633,
+          "lng": 105.7693
+        },
+        {
+          "sourceKey": "busmap:hn:station:1912",
+          "name": "Nhà CT5-ĐN1 KĐT Mỹ Đình I",
+          "address": "đường Trần Hữu Dực",
+          "lat": 21.028815,
+          "lng": 105.765923
+        },
+        {
+          "sourceKey": "busmap:hn:station:5182",
+          "name": "Tường rào Cung Điền kinh Mỹ Đình",
+          "address": "Tường rào Cung Điền kinh Mỹ Đình",
+          "lat": 21.028095,
+          "lng": 105.763616
+        },
+        {
+          "sourceKey": "busmap:hn:station:59643",
+          "name": "(B) SVĐ Quốc Gia (đối diện bệnh viện thể thao)",
+          "address": "(B) SVĐ Quốc Gia (đối diện bệnh viện thể thao)",
+          "lat": 21.0236335,
+          "lng": 105.7625806
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "name": "Tuyến 28 - [28] BX Nước Ngầm - Đông Ngạc - Đại học Mỏ",
+      "color": "#43A047",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:30",
+      "frequency": 14,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:4904",
+          "name": "(A) Bến xe Nước Ngầm",
+          "address": "Bến xe Nước ngầm",
+          "lat": 20.964775842843903,
+          "lng": 105.84238171577456
+        },
+        {
+          "sourceKey": "busmap:hn:station:165",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đ/diện Công an P.Hoàng Liệt- 1277 Giải Phóng",
+          "lat": 20.971046,
+          "lng": 105.84128
+        },
+        {
+          "sourceKey": "busmap:hn:station:45",
+          "name": "Dải đỗ số 3 bến xe Giáp Bát",
+          "address": "Tuyến 06 - 08 - 36",
+          "lat": 20.980583,
+          "lng": 105.8416
+        },
+        {
+          "sourceKey": "busmap:hn:station:166",
+          "name": "Toyota Giải Phóng",
+          "address": "807 Giải Phóng",
+          "lat": 20.984671,
+          "lng": 105.841143
+        },
+        {
+          "sourceKey": "busmap:hn:station:167",
+          "name": "649 Giải Phóng",
+          "address": "649 Giải Phóng",
+          "lat": 20.989377,
+          "lng": 105.841261
+        },
+        {
+          "sourceKey": "busmap:hn:station:168",
+          "name": "487 Giải Phóng",
+          "address": "487 Giải Phóng",
+          "lat": 20.993383,
+          "lng": 105.841283
+        },
+        {
+          "sourceKey": "busmap:hn:station:169",
+          "name": "ĐD Bệnh viện Bạch Mai",
+          "address": "175-177 Giải Phóng (Ngã 3 Lê Thanh Nghị)",
+          "lat": 21.000967,
+          "lng": 105.84145
+        },
+        {
+          "sourceKey": "busmap:hn:station:171",
+          "name": "Đại học Bách Khoa Hà Nội",
+          "address": "Gần cổng Parabol ĐH Bách Khoa-15 Giải Phóng",
+          "lat": 21.004917,
+          "lng": 105.841519
+        },
+        {
+          "sourceKey": "busmap:hn:station:850",
+          "name": "Chùa Trung Tự - Xã Đàn",
+          "address": "Số 240-242 Xã Đàn",
+          "lat": 21.012333,
+          "lng": 105.83615
+        },
+        {
+          "sourceKey": "busmap:hn:station:851",
+          "name": "Ngã 4 Xã Đàn - Nam Đồng",
+          "address": "396 Xã Đàn - Platform",
+          "lat": 21.014633,
+          "lng": 105.833617
+        },
+        {
+          "sourceKey": "busmap:hn:station:852",
+          "name": "Đàn Xã Tắc - Xã Đàn",
+          "address": "490 Xã Đàn - Platform",
+          "lat": 21.016968,
+          "lng": 105.83154
+        },
+        {
+          "sourceKey": "busmap:hn:station:85",
+          "name": "Số 94 Ô chợ Dừa",
+          "address": "Số 94 Ô chợ Dừa",
+          "lat": 21.020322,
+          "lng": 105.826812
+        },
+        {
+          "sourceKey": "busmap:hn:station:86",
+          "name": "426 Đê La Thành",
+          "address": "Đại học Văn Hóa",
+          "lat": 21.022878,
+          "lng": 105.822105
+        },
+        {
+          "sourceKey": "busmap:hn:station:451",
+          "name": "Đăng Khoa It Palaza",
+          "address": "29 Ngọc Khánh",
+          "lat": 21.024717,
+          "lng": 105.819433
+        },
+        {
+          "sourceKey": "busmap:hn:station:452",
+          "name": "Đối diện 70 Ngọc Khánh",
+          "address": "Đối diện 70 Ngọc Khánh",
+          "lat": 21.028717,
+          "lng": 105.817617
+        },
+        {
+          "sourceKey": "busmap:hn:station:475",
+          "name": "Hồ Ngọc Khánh, Nguyễn Chí Thanh",
+          "address": "Hồ Ngọc Khánh - Đối diện 37 Nguyễn Chí Thanh",
+          "lat": 21.02695,
+          "lng": 105.811933
+        },
+        {
+          "sourceKey": "busmap:hn:station:88",
+          "name": "Ngõ 1072 Đê La Thành",
+          "address": "Ngõ 1072 Đê La Thành",
+          "lat": 21.027367,
+          "lng": 105.809467
+        },
+        {
+          "sourceKey": "busmap:hn:station:61",
+          "name": "Điểm trung chuyển Cầu Giấy - Thủ Lệ (Cột trước)",
+          "address": "Thủ Lệ 01 - Cầu Giấy đường trên cao",
+          "lat": 21.029109,
+          "lng": 105.804032
+        },
+        {
+          "sourceKey": "busmap:hn:station:4873",
+          "name": "Số 148-150 Cầu Giấy",
+          "address": "148 Cầu Giấy",
+          "lat": 21.0329166666667,
+          "lng": 105.798516666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:60",
+          "name": "Ga Chùa Hà",
+          "address": "Ga Chùa Hà",
+          "lat": 21.035185,
+          "lng": 105.794625
+        },
+        {
+          "sourceKey": "busmap:hn:station:696",
+          "name": "Trường THCS Nghĩa Tân",
+          "address": "Đối diện 179 Tô Hiệu",
+          "lat": 21.041717,
+          "lng": 105.793933
+        },
+        {
+          "sourceKey": "busmap:hn:station:524",
+          "name": "Đối diện KTX trường Đảng Nguyễn Ái Quốc",
+          "address": "105K2 Nguyễn Phong Sắc",
+          "lat": 21.045267,
+          "lng": 105.790233
+        },
+        {
+          "sourceKey": "busmap:hn:station:734",
+          "name": "182 Trần Cung",
+          "address": "Đối diện Viện E",
+          "lat": 21.050317,
+          "lng": 105.789917
+        },
+        {
+          "sourceKey": "busmap:hn:station:735",
+          "name": "Đài tưởng niệm liệt sỹ xã Cổ Nhuế, Trần Cung",
+          "address": "Đối diện 155 Trần Cung",
+          "lat": 21.05415,
+          "lng": 105.787283
+        },
+        {
+          "sourceKey": "busmap:hn:station:736",
+          "name": "548 Trần Cung",
+          "address": "CLB Thôn Hoàng",
+          "lat": 21.058183,
+          "lng": 105.78345
+        },
+        {
+          "sourceKey": "busmap:hn:station:597",
+          "name": "Qua 70m đường vào công viên Hòa Bình",
+          "address": "Phạm Văn Đồng",
+          "lat": 21.0622,
+          "lng": 105.784017
+        },
+        {
+          "sourceKey": "busmap:hn:station:596",
+          "name": "373 Phạm Văn Đồng",
+          "address": "373 Phạm Văn Đồng",
+          "lat": 21.07015,
+          "lng": 105.78555
+        },
+        {
+          "sourceKey": "busmap:hn:station:598",
+          "name": "189 Phạm Văn Đồng",
+          "address": "Đường Phạm Văn Đồng",
+          "lat": 21.075022,
+          "lng": 105.78598
+        },
+        {
+          "sourceKey": "busmap:hn:station:201",
+          "name": "Đối diện số nhà 69 Hoàng Tăng Bí",
+          "address": "xã Đông Ngạc",
+          "lat": 21.082217,
+          "lng": 105.78345
+        },
+        {
+          "sourceKey": "busmap:hn:station:1062",
+          "name": "Đối diện Cửa hàng Bão dưỡng sửa chữa xe máy Nam Hải Xóm 7 Đông Ngạc",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.08245,
+          "lng": 105.7782
+        },
+        {
+          "sourceKey": "busmap:hn:station:1063",
+          "name": "UBND phường Đức Thắng",
+          "address": "UBND phường Đức Thắng",
+          "lat": 21.078568,
+          "lng": 105.777596
+        },
+        {
+          "sourceKey": "busmap:hn:station:1064",
+          "name": "Trường CĐ Tài Nguyên & Môi Trường HN",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.074032,
+          "lng": 105.777185
+        },
+        {
+          "sourceKey": "busmap:hn:station:1763",
+          "name": "(B) ĐH Mỏ",
+          "address": "Tuyến 28",
+          "lat": 21.0719,
+          "lng": 105.7772
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name": "Tuyến 31 - [31] Bách Khoa - Chèm (ĐH Mỏ)",
+      "color": "#E91E63",
+      "status": "active",
+      "startTime": "05:05",
+      "endTime": "21:00",
+      "frequency": 14,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1707",
+          "name": "(A) Đại học Bách Khoa",
+          "address": "Trần Đại Nghĩa",
+          "lat": 21.00665,
+          "lng": 105.845183
+        },
+        {
+          "sourceKey": "busmap:hn:station:342",
+          "name": "Sân vận động Bách Khoa, Lê Thanh Nghị",
+          "address": "Lê Thanh Nghị",
+          "lat": 21.002753,
+          "lng": 105.847542
+        },
+        {
+          "sourceKey": "busmap:hn:station:659",
+          "name": "Đối diện B13 Ký túc xá Bách Khoa",
+          "address": "Tạ Quang Bửu",
+          "lat": 21.0065,
+          "lng": 105.847233
+        },
+        {
+          "sourceKey": "busmap:hn:station:627",
+          "name": "319 Phố Huế",
+          "address": "319 Phố Huế",
+          "lat": 21.010077,
+          "lng": 105.85162
+        },
+        {
+          "sourceKey": "busmap:hn:station:628",
+          "name": "149 Phố Huế",
+          "address": "149 Phố Huế",
+          "lat": 21.014253,
+          "lng": 105.85172
+        },
+        {
+          "sourceKey": "busmap:hn:station:629",
+          "name": "25A-25B Phố Huế",
+          "address": "25A-25B Phố Huế",
+          "lat": 21.0188333333333,
+          "lng": 105.851716666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:397",
+          "name": "25 Lý Thường Kiệt",
+          "address": "25 Lý Thường Kiệt",
+          "lat": 21.022033,
+          "lng": 105.854867
+        },
+        {
+          "sourceKey": "busmap:hn:station:606",
+          "name": "Nhà hát Lớn Hà Nội",
+          "address": "Đối diện 6C Phan Chu Trinh",
+          "lat": 21.023477,
+          "lng": 105.85729
+        },
+        {
+          "sourceKey": "busmap:hn:station:391",
+          "name": "Ngân hàng Nhà nước Việt Nam - Vườn hoa con Cóc",
+          "address": "51 Lý Thái Tổ - Ngân hàng Nhà nước VN",
+          "lat": 21.026733,
+          "lng": 105.856217
+        },
+        {
+          "sourceKey": "busmap:hn:station:190",
+          "name": "23 Hàng Tre - Ngã 4 Lò Sũ",
+          "address": "23 Hàng Tre",
+          "lat": 21.031982,
+          "lng": 105.855672
+        },
+        {
+          "sourceKey": "busmap:hn:station:188",
+          "name": "Hàng Muối - Cầu Chương Dương",
+          "address": "Số 3 Hàng Muối",
+          "lat": 21.034583,
+          "lng": 105.8547
+        },
+        {
+          "sourceKey": "busmap:hn:station:856",
+          "name": "Điểm trung chuyển Long Biên (E1.3)",
+          "address": "E1.3 Điểm trung chuyển Long Biên",
+          "lat": 21.041383,
+          "lng": 105.849583
+        },
+        {
+          "sourceKey": "busmap:hn:station:859",
+          "name": "Dốc Hàng Than",
+          "address": "Dốc Hàng Than",
+          "lat": 21.044067,
+          "lng": 105.84705
+        },
+        {
+          "sourceKey": "busmap:hn:station:860",
+          "name": "Nhà máy nước Yên Phụ",
+          "address": "Nhà máy nước Yên Phụ",
+          "lat": 21.046467,
+          "lng": 105.844017
+        },
+        {
+          "sourceKey": "busmap:hn:station:861",
+          "name": "Đường Yên Phụ - Bãi An Dương",
+          "address": "Đường Yên Phụ - Bãi An Dương",
+          "lat": 21.050173,
+          "lng": 105.840734
+        },
+        {
+          "sourceKey": "busmap:hn:station:413",
+          "name": "Chợ Yên Phụ",
+          "address": "Trước số nhà 152 -154 Nghi Tàm",
+          "lat": 21.053894,
+          "lng": 105.837525
+        },
+        {
+          "sourceKey": "busmap:hn:station:414",
+          "name": "Đền Bảo An, Nghi Tàm",
+          "address": "Trước số nhà 284 Nghi Tàm",
+          "lat": 21.05713,
+          "lng": 105.835732
+        },
+        {
+          "sourceKey": "busmap:hn:station:17",
+          "name": "Số 34 Âu Cơ",
+          "address": "Số 34 Âu Cơ",
+          "lat": 21.05979199299553,
+          "lng": 105.83393275737764
+        },
+        {
+          "sourceKey": "busmap:hn:station:18",
+          "name": "Số 132 Âu Cơ",
+          "address": "Số 132 Âu Cơ",
+          "lat": 21.06312101674501,
+          "lng": 105.83222150802614
+        },
+        {
+          "sourceKey": "busmap:hn:station:19",
+          "name": "Số 236 Âu Cơ - Chợ hoa Quảng An",
+          "address": "Số 236 Âu Cơ - Chợ hoa Quảng An",
+          "lat": 21.06635485420083,
+          "lng": 105.82811772823334
+        },
+        {
+          "sourceKey": "busmap:hn:station:20",
+          "name": "Ngã 3 Âu Cơ - Xuân Diệu - Tô Ngọc Vân",
+          "address": "236 Âu Cơ",
+          "lat": 21.069933,
+          "lng": 105.826167
+        },
+        {
+          "sourceKey": "busmap:hn:station:21",
+          "name": "Số 284 Âu Cơ - Hồ Quảng Bá",
+          "address": "Số 284 Âu Cơ",
+          "lat": 21.0739435836467,
+          "lng": 105.82478642463684
+        },
+        {
+          "sourceKey": "busmap:hn:station:22",
+          "name": "Đối diện Đình Nhật Tân",
+          "address": "Đối diện Đình Nhật Tân",
+          "lat": 21.075989,
+          "lng": 105.822166
+        },
+        {
+          "sourceKey": "busmap:hn:station:23",
+          "name": "Ngã 3 Lạc Long Quân - Âu Cơ",
+          "address": "Số 468 Âu Cơ",
+          "lat": 21.080601,
+          "lng": 105.818634
+        },
+        {
+          "sourceKey": "busmap:hn:station:1",
+          "name": "8 An Dương Vương",
+          "address": "8 An Dương Vương",
+          "lat": 21.084233,
+          "lng": 105.816833
+        },
+        {
+          "sourceKey": "busmap:hn:station:2",
+          "name": "Đối diện Trạm thú y Tây Hồ 197 An Dương Vương",
+          "address": "Đối diện Trạm thú y Tây Hồ 197 An Dương Vương",
+          "lat": 21.090033,
+          "lng": 105.811583
+        },
+        {
+          "sourceKey": "busmap:hn:station:3",
+          "name": "Đối diện lối rẽ vào UBND phường Phú Thượng",
+          "address": "An Dương Vương",
+          "lat": 21.089867,
+          "lng": 105.8078
+        },
+        {
+          "sourceKey": "busmap:hn:station:4",
+          "name": "Đối diện 327 An Dương Vương",
+          "address": "Đối diện 327 An Dương Vương",
+          "lat": 21.089717,
+          "lng": 105.802833
+        },
+        {
+          "sourceKey": "busmap:hn:station:5",
+          "name": "Đối diện làng Thượng Thuỵ",
+          "address": "An Dương Vương",
+          "lat": 21.0894,
+          "lng": 105.79705
+        },
+        {
+          "sourceKey": "busmap:hn:station:6",
+          "name": "Xóm Đình Nhật Tảo (Cách đối diện Đình Nhật Tảo 100m)",
+          "address": "An Dương Vương",
+          "lat": 21.090767,
+          "lng": 105.78895
+        },
+        {
+          "sourceKey": "busmap:hn:station:7",
+          "name": "Đối diện trường tiểu học Đông Ngạc A",
+          "address": "An Dương Vương",
+          "lat": 21.092,
+          "lng": 105.782917
+        },
+        {
+          "sourceKey": "busmap:hn:station:8",
+          "name": "Đối diện trường THCS Đông Ngạc A",
+          "address": "An Dương Vương",
+          "lat": 21.093567,
+          "lng": 105.7786
+        },
+        {
+          "sourceKey": "busmap:hn:station:1061",
+          "name": "ĐD đình làng Liên Ngạc",
+          "address": "Đường Thụy Phương",
+          "lat": 21.09055,
+          "lng": 105.777667
+        },
+        {
+          "sourceKey": "busmap:hn:station:1062",
+          "name": "Đối diện Cửa hàng Bão dưỡng sửa chữa xe máy Nam Hải Xóm 7 Đông Ngạc",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.08245,
+          "lng": 105.7782
+        },
+        {
+          "sourceKey": "busmap:hn:station:1063",
+          "name": "UBND phường Đức Thắng",
+          "address": "UBND phường Đức Thắng",
+          "lat": 21.078568,
+          "lng": 105.777596
+        },
+        {
+          "sourceKey": "busmap:hn:station:1064",
+          "name": "Trường CĐ Tài Nguyên & Môi Trường HN",
+          "address": "Đường Đông Ngạc",
+          "lat": 21.074032,
+          "lng": 105.777185
+        },
+        {
+          "sourceKey": "busmap:hn:station:1764",
+          "name": "(B) ĐH Mỏ",
+          "address": "ĐH Mỏ, Phố Viên, Cổ Nhuế 1",
+          "lat": 21.071515833041925,
+          "lng": 105.7756268978119
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "Tuyến 32 - [32] Bến xe Giáp Bát - Nhổn",
+      "color": "#3F51B5",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:30",
+      "frequency": 14,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1676",
+          "name": "(A) BX Giáp Bát",
+          "address": "Tuyến 32",
+          "lat": 20.97985,
+          "lng": 105.841917
+        },
+        {
+          "sourceKey": "busmap:hn:station:166",
+          "name": "Toyota Giải Phóng",
+          "address": "807 Giải Phóng",
+          "lat": 20.984671,
+          "lng": 105.841143
+        },
+        {
+          "sourceKey": "busmap:hn:station:167",
+          "name": "649 Giải Phóng",
+          "address": "649 Giải Phóng",
+          "lat": 20.989377,
+          "lng": 105.841261
+        },
+        {
+          "sourceKey": "busmap:hn:station:168",
+          "name": "487 Giải Phóng",
+          "address": "487 Giải Phóng",
+          "lat": 20.993383,
+          "lng": 105.841283
+        },
+        {
+          "sourceKey": "busmap:hn:station:169",
+          "name": "ĐD Bệnh viện Bạch Mai",
+          "address": "175-177 Giải Phóng (Ngã 3 Lê Thanh Nghị)",
+          "lat": 21.000967,
+          "lng": 105.84145
+        },
+        {
+          "sourceKey": "busmap:hn:station:171",
+          "name": "Đại học Bách Khoa Hà Nội",
+          "address": "Gần cổng Parabol ĐH Bách Khoa-15 Giải Phóng",
+          "lat": 21.004917,
+          "lng": 105.841519
+        },
+        {
+          "sourceKey": "busmap:hn:station:323",
+          "name": "Đối diện 394 Lê Duẩn",
+          "address": "Đối diện 394 Lê Duẩn",
+          "lat": 21.009385,
+          "lng": 105.841366
+        },
+        {
+          "sourceKey": "busmap:hn:station:324",
+          "name": "Công viên Thống Nhất",
+          "address": "Đối diện 326 Lê Duẩn",
+          "lat": 21.014117,
+          "lng": 105.84145
+        },
+        {
+          "sourceKey": "busmap:hn:station:730",
+          "name": "Đối diện 28 Trần Bình Trọng",
+          "address": "Hồ Thiền Quang",
+          "lat": 21.018383,
+          "lng": 105.8439
+        },
+        {
+          "sourceKey": "busmap:hn:station:395",
+          "name": "54 Lý Thường Kiệt",
+          "address": "54 Lý Thường Kiệt",
+          "lat": 21.024812,
+          "lng": 105.845539
+        },
+        {
+          "sourceKey": "busmap:hn:station:95",
+          "name": "Cửa Nam - Điện Biên Phủ",
+          "address": "12A Điện Biên Phủ",
+          "lat": 21.0295,
+          "lng": 105.8424
+        },
+        {
+          "sourceKey": "busmap:hn:station:773",
+          "name": "Vườn hoa Lênin - Trần Phú",
+          "address": "Vườn hoa Lênin - Đối diện 35 Trần Phú",
+          "lat": 21.031033,
+          "lng": 105.839367
+        },
+        {
+          "sourceKey": "busmap:hn:station:774",
+          "name": "60 Trần Phú - Bệnh viện Xanh pôn",
+          "address": "Đối diện BV Xanh pôn - 60 Trần Phú (Bộ Tư pháp)",
+          "lat": 21.031665,
+          "lng": 105.835885
+        },
+        {
+          "sourceKey": "busmap:hn:station:3297",
+          "name": "Bến xe Kim Mã - 140 Sơn Tây",
+          "address": "140 Sơn Tây",
+          "lat": 21.0327,
+          "lng": 105.829317
+        },
+        {
+          "sourceKey": "busmap:hn:station:289",
+          "name": "UBND phường Kim Mã - 240 Kim Mã",
+          "address": "240 Kim Mã",
+          "lat": 21.0317,
+          "lng": 105.824033
+        },
+        {
+          "sourceKey": "busmap:hn:station:4974",
+          "name": "2/2C khu Ngoại Giao Đoàn, phố Kim Mã đường dưới",
+          "address": "2/2C Khu Ngoại giao đoàn - Kim Mã (đường dưới)",
+          "lat": 21.030817,
+          "lng": 105.8167
+        },
+        {
+          "sourceKey": "busmap:hn:station:76",
+          "name": "10 Đào Tấn - Viện Vật lý",
+          "address": "10 Đào Tấn - Viện Vật lý",
+          "lat": 21.032205,
+          "lng": 105.810202
+        },
+        {
+          "sourceKey": "busmap:hn:station:49",
+          "name": "Đối diện Công viên Thủ Lệ - Đường Bưởi dưới",
+          "address": "Đối diện Công viên Thủ Lệ - Đường Bưởi dưới",
+          "lat": 21.031433,
+          "lng": 105.802733
+        },
+        {
+          "sourceKey": "busmap:hn:station:62",
+          "name": "Điểm trung chuyển Cầu Giấy - Thủ Lệ (cột sau)",
+          "address": "Thủ Lệ 02 - Cầu giấy đường trên cao",
+          "lat": 21.02925,
+          "lng": 105.803717
+        },
+        {
+          "sourceKey": "busmap:hn:station:4873",
+          "name": "Số 148-150 Cầu Giấy",
+          "address": "148 Cầu Giấy",
+          "lat": 21.0329166666667,
+          "lng": 105.798516666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:60",
+          "name": "Ga Chùa Hà",
+          "address": "Ga Chùa Hà",
+          "lat": 21.035185,
+          "lng": 105.794625
+        },
+        {
+          "sourceKey": "busmap:hn:station:65",
+          "name": "370 Cầu Giấy",
+          "address": "370 Cầu Giấy",
+          "lat": 21.035841,
+          "lng": 105.791915
+        },
+        {
+          "sourceKey": "busmap:hn:station:2111",
+          "name": "HV Báo chí Tuyên Truyền",
+          "address": "HV Báo chí Tuyên Truyền",
+          "lat": 21.036583,
+          "lng": 105.788433
+        },
+        {
+          "sourceKey": "busmap:hn:station:6189",
+          "name": "Chợ Xanh - Xuân Thủy",
+          "address": "Chợ Xanh",
+          "lat": 21.036683,
+          "lng": 105.78605
+        },
+        {
+          "sourceKey": "busmap:hn:station:2112",
+          "name": "Ga ĐHQGHN - Xuân Thủy",
+          "address": "ĐH Sư phạm Hà Nội",
+          "lat": 21.03678715491167,
+          "lng": 105.78258454799654
+        },
+        {
+          "sourceKey": "busmap:hn:station:244",
+          "name": "Đối diện ĐH Thương Mại",
+          "address": "Đối diện ĐH Thương Mại",
+          "lat": 21.037788527611475,
+          "lng": 105.77453792095186
+        },
+        {
+          "sourceKey": "busmap:hn:station:4185",
+          "name": "Đối diện UBND quận Nam Từ Liêm (202 Hồ Tùng Mậu )",
+          "address": "202 Hồ Tùng Mậu ( đối diện UBND quận Nam Từ Liêm)",
+          "lat": 21.040133,
+          "lng": 105.766483
+        },
+        {
+          "sourceKey": "busmap:hn:station:6166",
+          "name": "Ga Phú Diễn",
+          "address": "Đường 32",
+          "lat": 21.041433,
+          "lng": 105.762683
+        },
+        {
+          "sourceKey": "busmap:hn:station:1049",
+          "name": "Trung tâm kiểm định xe máy quân sự (Cầu Diễn)",
+          "address": "Trung tâm kiểm định xe máy quân sự (Cầu Diễn)",
+          "lat": 21.042489882441966,
+          "lng": 105.75965702533723
+        },
+        {
+          "sourceKey": "busmap:hn:station:1051",
+          "name": "135 Tổ 3 (Đối diện trường mầm non Sao Mai - Kiều Mai)",
+          "address": "Đường 32",
+          "lat": 21.045867,
+          "lng": 105.750517
+        },
+        {
+          "sourceKey": "busmap:hn:station:1052",
+          "name": "Đối diện Cty CP chế tạo điện cơ Hà Nội",
+          "address": "Đường 32",
+          "lat": 21.04745,
+          "lng": 105.746633
+        },
+        {
+          "sourceKey": "busmap:hn:station:1053",
+          "name": "Đình và Miếu Đồng Cổ (Thôn Nguyên Xá)",
+          "address": "Đường 32",
+          "lat": 21.049689326666723,
+          "lng": 105.74102103710176
+        },
+        {
+          "sourceKey": "busmap:hn:station:1778",
+          "name": "(B) Nhổn",
+          "address": "ĐH Công Nghiệp HN - Tuyến 32",
+          "lat": 21.051875,
+          "lng": 105.736078
+        }
+      ]
+    },
+    {
+      "code": "32TC",
+      "name": "Tuyến 32TC - [32TC] BX Giáp Bát - Trung tâm triển lãm Việt Nam",
+      "color": "#3F51B5",
+      "status": "active",
+      "startTime": "07:30",
+      "endTime": "21:35",
+      "frequency": 60,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1676",
+          "name": "(A) BX Giáp Bát",
+          "address": "Tuyến 32",
+          "lat": 20.97985,
+          "lng": 105.841917
+        },
+        {
+          "sourceKey": "busmap:hn:station:166",
+          "name": "Toyota Giải Phóng",
+          "address": "807 Giải Phóng",
+          "lat": 20.984671,
+          "lng": 105.841143
+        },
+        {
+          "sourceKey": "busmap:hn:station:167",
+          "name": "649 Giải Phóng",
+          "address": "649 Giải Phóng",
+          "lat": 20.989377,
+          "lng": 105.841261
+        },
+        {
+          "sourceKey": "busmap:hn:station:168",
+          "name": "487 Giải Phóng",
+          "address": "487 Giải Phóng",
+          "lat": 20.993383,
+          "lng": 105.841283
+        },
+        {
+          "sourceKey": "busmap:hn:station:81",
+          "name": "197 Đại La - Qua Phố Vọng",
+          "address": "197 Đại La",
+          "lat": 20.99691704269471,
+          "lng": 105.84347069263458
+        },
+        {
+          "sourceKey": "busmap:hn:station:6393",
+          "name": "87 Đại La",
+          "address": "87 Đại La",
+          "lat": 20.99605,
+          "lng": 105.84771666666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:5768",
+          "name": "32 Minh Khai",
+          "address": "32 Minh Khai",
+          "lat": 20.99575,
+          "lng": 105.850617
+        },
+        {
+          "sourceKey": "busmap:hn:station:406",
+          "name": "218-220 Minh Khai",
+          "address": "218-220 Minh Khai",
+          "lat": 20.995359,
+          "lng": 105.854673
+        },
+        {
+          "sourceKey": "busmap:hn:station:407",
+          "name": "308 Minh Khai (Gần cầu Mai Động)",
+          "address": "308 Minh Khai",
+          "lat": 20.995634933097907,
+          "lng": 105.86098551750185
+        },
+        {
+          "sourceKey": "busmap:hn:station:408",
+          "name": "386-388 Minh Khai",
+          "address": "386-388 Minh Khai",
+          "lat": 20.996646598617986,
+          "lng": 105.86393594741824
+        },
+        {
+          "sourceKey": "busmap:hn:station:409",
+          "name": "Viện kinh tế và kỹ thuật dệt may",
+          "address": "Times City (478Minh Khai)",
+          "lat": 20.99751802777782,
+          "lng": 105.86630702018738
+        },
+        {
+          "sourceKey": "busmap:hn:station:1209",
+          "name": "Sân Golf Long Biên",
+          "address": "Sân Golf Long Biên (AEON Long Biên)",
+          "lat": 21.030033,
+          "lng": 105.898667
+        },
+        {
+          "sourceKey": "busmap:hn:station:1199",
+          "name": "UBND phường Phúc Đồng",
+          "address": "274 Nguyễn Văn Linh",
+          "lat": 21.03865,
+          "lng": 105.898467
+        },
+        {
+          "sourceKey": "busmap:hn:station:1200",
+          "name": "105 - 107 Nguyễn Văn Linh",
+          "address": "105 - 107 Nguyễn Văn Linh",
+          "lat": 21.045017,
+          "lng": 105.895283
+        },
+        {
+          "sourceKey": "busmap:hn:station:1201",
+          "name": "Hè trước Savico Megamall",
+          "address": "Nguyễn Văn Linh",
+          "lat": 21.050433,
+          "lng": 105.892
+        },
+        {
+          "sourceKey": "busmap:hn:station:4215",
+          "name": "MediaMart Long Biên",
+          "address": "Nguyễn Văn Linh",
+          "lat": 21.05325,
+          "lng": 105.889783
+        },
+        {
+          "sourceKey": "busmap:hn:station:110241",
+          "name": "Hầm chui dân sinh ĐD Ngõ 65 Lý Sơn",
+          "address": "Hầm chui dân sinh ĐD Ngõ 65 Lý Sơn",
+          "lat": 21.06377325,
+          "lng": 105.88198063
+        },
+        {
+          "sourceKey": "busmap:hn:station:110910",
+          "name": "Chung cư Eurowindow River Park",
+          "address": "Chung cư Eurowindow River Park",
+          "lat": 21.07871474,
+          "lng": 105.8736235
+        },
+        {
+          "sourceKey": "busmap:hn:station:59560",
+          "name": "Vịnh xe buýt trước Hội trường xã Đông Hội (đi Đông Anh) - Trường Sa",
+          "address": "Vịnh xe buýt trước Hội trường xã Đông Hội (đi Đông Anh) - Trường Sa",
+          "lat": 21.088083,
+          "lng": 105.86685
+        },
+        {
+          "sourceKey": "busmap:hn:station:59557",
+          "name": "Hầm đi bộ HS10 - Đi Gia Lâm",
+          "address": "Hầm đi bộ HS10",
+          "lat": 21.092273,
+          "lng": 105.8623142
+        },
+        {
+          "sourceKey": "busmap:hn:station:59564",
+          "name": "Trung tâm Triển lãm Quốc gia (Đến)",
+          "address": "Trung tâm Triển lãm Quốc gia",
+          "lat": 21.0919998,
+          "lng": 105.862691
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name": "Tuyến 33 - [33] Cụm Công nghiệp Thanh Oai - Xuân Đỉnh",
+      "color": "#8BC34A",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:05",
+      "frequency": 17,
+      "price": 15000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:5093",
+          "name": "(A) Cụm CN Thanh Oai",
+          "address": "đường nội bộ Cụm CN Thanh Oai",
+          "lat": 20.926917,
+          "lng": 105.752467
+        },
+        {
+          "sourceKey": "busmap:hn:station:5094",
+          "name": "Công ty CP Coma đường nội bộ Cụm CN Thanh Oai",
+          "address": "Công ty CP Coma đường nội bộ Cụm CN Thanh Oai",
+          "lat": 20.928329,
+          "lng": 105.756611
+        },
+        {
+          "sourceKey": "busmap:hn:station:2746",
+          "name": "Đối diện Cụm CN Thanh Oai",
+          "address": "Đối diện Cụm CN Thanh Oai",
+          "lat": 20.92933,
+          "lng": 105.757918
+        },
+        {
+          "sourceKey": "busmap:hn:station:2747",
+          "name": "Lối vào làng Thượng Mạo",
+          "address": "Lối vào làng Thượng Mạo",
+          "lat": 20.935683,
+          "lng": 105.757667
+        },
+        {
+          "sourceKey": "busmap:hn:station:2748",
+          "name": "157 Phố Xốm",
+          "address": "THPT Trần Hưng Đạo",
+          "lat": 20.9436,
+          "lng": 105.756833
+        },
+        {
+          "sourceKey": "busmap:hn:station:2749",
+          "name": "Đại học Đại Nam",
+          "address": "Đại học Đại Nam",
+          "lat": 20.948017,
+          "lng": 105.757033
+        },
+        {
+          "sourceKey": "busmap:hn:station:2750",
+          "name": "17 Ba La",
+          "address": "17 Ba La",
+          "lat": 20.9552,
+          "lng": 105.757433
+        },
+        {
+          "sourceKey": "busmap:hn:station:651",
+          "name": "807 Quang Trung",
+          "address": "Hà Đông",
+          "lat": 20.958052,
+          "lng": 105.759623
+        },
+        {
+          "sourceKey": "busmap:hn:station:652",
+          "name": "707-709 Quang Trung, Hà Đông",
+          "address": "cột mốc H3/15",
+          "lat": 20.960217,
+          "lng": 105.76245
+        },
+        {
+          "sourceKey": "busmap:hn:station:5765",
+          "name": "Ga La Khê",
+          "address": "Ga La Khê - 481 Quang Trung",
+          "lat": 20.963608672182115,
+          "lng": 105.76682388782504
+        },
+        {
+          "sourceKey": "busmap:hn:station:654",
+          "name": "Chợ La Khê",
+          "address": "Đối diện đường vào chợ La Khê - 405 Quang Trung",
+          "lat": 20.96499625173167,
+          "lng": 105.76870679855348
+        },
+        {
+          "sourceKey": "busmap:hn:station:5766",
+          "name": "Công ty CPLH Thực Phẩm",
+          "address": "267 Quang Trung - Hà Đông",
+          "lat": 20.967433,
+          "lng": 105.771667
+        },
+        {
+          "sourceKey": "busmap:hn:station:656",
+          "name": "Ga Hà Đông - đình Cầu Đơ",
+          "address": "85 Quang Trung (Hà Đông",
+          "lat": 20.970569,
+          "lng": 105.775677
+        },
+        {
+          "sourceKey": "busmap:hn:station:657",
+          "name": "Bưu điện Hà Đông",
+          "address": "Đối diện Bưu Điện Hà Đông(15 Quang Trung Hà Đông)",
+          "lat": 20.972417,
+          "lng": 105.777833
+        },
+        {
+          "sourceKey": "busmap:hn:station:2644",
+          "name": "Số 2 Chu Văn An",
+          "address": "Hà Đông",
+          "lat": 20.974117,
+          "lng": 105.7783
+        },
+        {
+          "sourceKey": "busmap:hn:station:5190",
+          "name": "Cầu Cong",
+          "address": "Vạn Phúc",
+          "lat": 20.97735,
+          "lng": 105.775567
+        },
+        {
+          "sourceKey": "busmap:hn:station:2645",
+          "name": "Chùa Vạn Phúc",
+          "address": "Hà Đông",
+          "lat": 20.9797,
+          "lng": 105.7725
+        },
+        {
+          "sourceKey": "busmap:hn:station:2646",
+          "name": "Số 170 - 172 Vạn Phúc",
+          "address": "Hà Đông",
+          "lat": 20.98205,
+          "lng": 105.770833
+        },
+        {
+          "sourceKey": "busmap:hn:station:5116",
+          "name": "Qua nhà chờ BRT Vạn Phúc 2 30m",
+          "address": "chiều đi",
+          "lat": 20.985282,
+          "lng": 105.775664
+        },
+        {
+          "sourceKey": "busmap:hn:station:3172",
+          "name": "Qua nhà chờ BRT Mỗ Lao 30m",
+          "address": "Qua nhà chờ BRT Mỗ Lao 30m",
+          "lat": 20.988242,
+          "lng": 105.780029
+        },
+        {
+          "sourceKey": "busmap:hn:station:708",
+          "name": "Trước ngã 4 Trung Văn",
+          "address": "Tố Hữu 100m",
+          "lat": 20.99145,
+          "lng": 105.784333
+        },
+        {
+          "sourceKey": "busmap:hn:station:6394",
+          "name": "BT1 Lô số 7 Trung Văn",
+          "address": "Nam Từ Liêm",
+          "lat": 20.99355,
+          "lng": 105.780633
+        },
+        {
+          "sourceKey": "busmap:hn:station:6395",
+          "name": "Tòa CT1C Vinaconex 3 Trung Văn",
+          "address": "Nam Từ Liêm",
+          "lat": 20.9956,
+          "lng": 105.779883
+        },
+        {
+          "sourceKey": "busmap:hn:station:5154",
+          "name": "Đối diện 105 Cương Kiên",
+          "address": "Đối diện 105 Cương Kiên",
+          "lat": 20.99703,
+          "lng": 105.779811
+        },
+        {
+          "sourceKey": "busmap:hn:station:3175",
+          "name": "Đối diện số 42 đường Miếu Đầm",
+          "address": "Đối diện số 42 đường Miếu Đầm",
+          "lat": 21.00655,
+          "lng": 105.782283
+        },
+        {
+          "sourceKey": "busmap:hn:station:3176",
+          "name": "Đối diện số nhà 3 Lô A đường Đỗ Đức Dục",
+          "address": "Đối diện số nhà 3 Lô A đường Đỗ Đức Dục",
+          "lat": 21.009083,
+          "lng": 105.7832
+        },
+        {
+          "sourceKey": "busmap:hn:station:575",
+          "name": "Tòa nhà Landmark 72, Phạm Hùng",
+          "address": "Tòa nhà Lanmarrk 72 - Phạm Hùng",
+          "lat": 21.015587,
+          "lng": 105.784246
+        },
+        {
+          "sourceKey": "busmap:hn:station:576",
+          "name": "ĐD nhà CT5 - KĐT Sông Đà, Phạm Hùng",
+          "address": "Đối diện nhà CT5 - KĐT Sông Đà (Mễ trì)",
+          "lat": 21.01885,
+          "lng": 105.781517
+        },
+        {
+          "sourceKey": "busmap:hn:station:577",
+          "name": "Qua ngã tư Đình Thôn, Phạm Hùng",
+          "address": "Qua Phạm Hùng-Đình Thôn",
+          "lat": 21.0229,
+          "lng": 105.77903
+        },
+        {
+          "sourceKey": "busmap:hn:station:578",
+          "name": "Đối diện Bến xe khách Mỹ Đình",
+          "address": "Phạm Hùng (cột trước)",
+          "lat": 21.027115,
+          "lng": 105.779449
+        },
+        {
+          "sourceKey": "busmap:hn:station:580",
+          "name": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "address": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "lat": 21.0344,
+          "lng": 105.780433
+        },
+        {
+          "sourceKey": "busmap:hn:station:2137",
+          "name": "Hè gần hầm chui cho người đi bộ qua đường khu vực cầu Mai Dịch",
+          "address": "trước cổng trường ĐHNN 70m",
+          "lat": 21.038633,
+          "lng": 105.781067
+        },
+        {
+          "sourceKey": "busmap:hn:station:5158",
+          "name": "Tòa nhà Bắc Hà",
+          "address": "30 Phạm Văn Đồng",
+          "lat": 21.04365,
+          "lng": 105.781517
+        },
+        {
+          "sourceKey": "busmap:hn:station:238",
+          "name": "Trạm trung chuyển xe buýt Hoàng Quốc Việt (cột sau)",
+          "address": "chiều đi Bưởi",
+          "lat": 21.046017,
+          "lng": 105.78375
+        },
+        {
+          "sourceKey": "busmap:hn:station:229",
+          "name": "Học viện Chính trị Quốc Gia Hồ Chí Minh",
+          "address": "Đối diện 108 Hoàng Quốc Việt",
+          "lat": 21.04609,
+          "lng": 105.788481
+        },
+        {
+          "sourceKey": "busmap:hn:station:230",
+          "name": "Cao đẳng sư phạm mẫu giáo Trung ương",
+          "address": "387 Hoàng Quốc Việt",
+          "lat": 21.046,
+          "lng": 105.7922
+        },
+        {
+          "sourceKey": "busmap:hn:station:231",
+          "name": "247-249 Hoàng Quốc Việt",
+          "address": "247-249 Hoàng Quốc Việt",
+          "lat": 21.046031,
+          "lng": 105.796345
+        },
+        {
+          "sourceKey": "busmap:hn:station:232",
+          "name": "Gần Học viện Quốc Phòng",
+          "address": "91 Hoàng Quốc Việt",
+          "lat": 21.046083,
+          "lng": 105.801133
+        },
+        {
+          "sourceKey": "busmap:hn:station:311",
+          "name": "50 - 52 Lạc Long Quân",
+          "address": "50 - 52 Lạc Long Quân",
+          "lat": 21.049817,
+          "lng": 105.80725
+        },
+        {
+          "sourceKey": "busmap:hn:station:305",
+          "name": "196 Lạc Long Quân",
+          "address": "Trường mầm non Hoa Hồng",
+          "lat": 21.052833,
+          "lng": 105.809167
+        },
+        {
+          "sourceKey": "busmap:hn:station:306",
+          "name": "Gần ngã 3 Xuân La 40m",
+          "address": "Lạc Long Quân (Hồ Tây)",
+          "lat": 21.0594,
+          "lng": 105.808983
+        },
+        {
+          "sourceKey": "busmap:hn:station:59599",
+          "name": "26B Xuân La",
+          "address": "26B Xuân La",
+          "lat": 21.062204,
+          "lng": 105.808014
+        },
+        {
+          "sourceKey": "busmap:hn:station:5444",
+          "name": "Trường Tiểu học Xuân La",
+          "address": "Trường Tiểu học Xuân La",
+          "lat": 21.06595,
+          "lng": 105.80505
+        },
+        {
+          "sourceKey": "busmap:hn:station:1800",
+          "name": "Trường Đại học Nội vụ Hà Nội",
+          "address": "Đối diện Trường Đại học Nội vụ Hà Nội",
+          "lat": 21.068117,
+          "lng": 105.803183
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name": "Tuyến 34 - [34] Bến xe Mỹ Đình - Bến xe Gia Lâm",
+      "color": "#FF5722",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "22:30",
+      "frequency": 13,
+      "price": 7000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1692",
+          "name": "Bến xe Mỹ Đình",
+          "address": "Bến xe Mỹ Đình",
+          "lat": 21.02851,
+          "lng": 105.77826
+        },
+        {
+          "sourceKey": "busmap:hn:station:578",
+          "name": "Đối diện Bến xe khách Mỹ Đình",
+          "address": "Phạm Hùng (cột trước)",
+          "lat": 21.027115,
+          "lng": 105.779449
+        },
+        {
+          "sourceKey": "busmap:hn:station:580",
+          "name": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "address": "Đối diện BV ĐK Y học Cổ Truyền - Phạm Hùng",
+          "lat": 21.0344,
+          "lng": 105.780433
+        },
+        {
+          "sourceKey": "busmap:hn:station:6220",
+          "name": "Tòa nhà Indochina Tower",
+          "address": "Đối diện ĐHQG Hà Nội",
+          "lat": 21.036589,
+          "lng": 105.781974
+        },
+        {
+          "sourceKey": "busmap:hn:station:2114",
+          "name": "Đối Diện HV Báo Chí Và Tuyên Truyền - 79 Xuân thủy",
+          "address": "79 Xuân Thủy (Đối Diện HV Báo Chí Và Tuyên Truyền)",
+          "lat": 21.036352,
+          "lng": 105.788399
+        },
+        {
+          "sourceKey": "busmap:hn:station:4841",
+          "name": "331 Cầu Giấy",
+          "address": "331 Cầu Giấy",
+          "lat": 21.03565,
+          "lng": 105.791783333333
+        },
+        {
+          "sourceKey": "busmap:hn:station:6401",
+          "name": "Ga Chùa Hà - đối diện Discovery Complex (Cầu Giấy)",
+          "address": "Ga Chùa Hà - đối diện Discovery Complex",
+          "lat": 21.034869,
+          "lng": 105.7943
+        },
+        {
+          "sourceKey": "busmap:hn:station:58",
+          "name": "165 Cầu Giấy",
+          "address": "Bưu điện Cầu Giấy",
+          "lat": 21.0325666666667,
+          "lng": 105.7986
+        },
+        {
+          "sourceKey": "busmap:hn:station:64",
+          "name": "Điểm trung chuyển Cầu Giấy - ĐHGTVT (cột trước)",
+          "address": "Điểm trung chuyển Cầu Giấy - ĐHGTVT (cột trước)",
+          "lat": 21.028717,
+          "lng": 105.803667
+        },
+        {
+          "sourceKey": "busmap:hn:station:282",
+          "name": "593 - 595 Kim Mã",
+          "address": "593 - 595 Kim Mã",
+          "lat": 21.029424,
+          "lng": 105.808794
+        },
+        {
+          "sourceKey": "busmap:hn:station:283",
+          "name": "Ngã 3 Kim Mã - Trần Huy Liệu",
+          "address": "116 A5 Tập thể Giảng Võ - Kim Mã",
+          "lat": 21.030694,
+          "lng": 105.818767
+        },
+        {
+          "sourceKey": "busmap:hn:station:284",
+          "name": "Đối diện UBND phường Kim Mã",
+          "address": "211 Kim Mã",
+          "lat": 21.03134,
+          "lng": 105.823032
+        },
+        {
+          "sourceKey": "busmap:hn:station:286",
+          "name": "Hè trước tòa nhà PTA",
+          "address": "Số 1 Kim Mã",
+          "lat": 21.0322666168213,
+          "lng": 105.829475402832
+        },
+        {
+          "sourceKey": "busmap:hn:station:530",
+          "name": "145 Nguyễn Thái Học",
+          "address": "145 Nguyễn Thái Học",
+          "lat": 21.031117,
+          "lng": 105.83365
+        },
+        {
+          "sourceKey": "busmap:hn:station:531",
+          "name": "Trường Tiểu Học Lý thường Kiệt - Ngã 3 Hoàng Diệu",
+          "address": "85 Nguyễn Thái Học - TH Lý Thường Kiệt",
+          "lat": 21.029533,
+          "lng": 105.83895
+        },
+        {
+          "sourceKey": "busmap:hn:station:532",
+          "name": "Cửa Nam - Số 7 Nguyễn Thái Học",
+          "address": "7 Nguyễn Thái Học - Cửa Nam",
+          "lat": 21.028362,
+          "lng": 105.842983
+        },
+        {
+          "sourceKey": "busmap:hn:station:177",
+          "name": "Bệnh viện Hữu Nghị Việt Nam - Cu Ba.",
+          "address": "37 Hai Bà Trưng - BV Việt Nam Cu Ba",
+          "lat": 21.025,
+          "lng": 105.850133
+        },
+        {
+          "sourceKey": "busmap:hn:station:178",
+          "name": "Tràng Tiền Plaza - 16 Hai Bà Trưng",
+          "address": "Đối diện 16 Hai Bà Trưng (Ngã 4 HBT-NQ)",
+          "lat": 21.023817,
+          "lng": 105.854067
+        },
+        {
+          "sourceKey": "busmap:hn:station:606",
+          "name": "Nhà hát Lớn Hà Nội",
+          "address": "Đối diện 6C Phan Chu Trinh",
+          "lat": 21.023477,
+          "lng": 105.85729
+        },
+        {
+          "sourceKey": "busmap:hn:station:391",
+          "name": "Ngân hàng Nhà nước Việt Nam - Vườn hoa con Cóc",
+          "address": "51 Lý Thái Tổ - Ngân hàng Nhà nước VN",
+          "lat": 21.026733,
+          "lng": 105.856217
+        },
+        {
+          "sourceKey": "busmap:hn:station:190",
+          "name": "23 Hàng Tre - Ngã 4 Lò Sũ",
+          "address": "23 Hàng Tre",
+          "lat": 21.031982,
+          "lng": 105.855672
+        },
+        {
+          "sourceKey": "busmap:hn:station:188",
+          "name": "Hàng Muối - Cầu Chương Dương",
+          "address": "Số 3 Hàng Muối",
+          "lat": 21.034583,
+          "lng": 105.8547
+        },
+        {
+          "sourceKey": "busmap:hn:station:770",
+          "name": "Đối diện Ô Quan Chưởng",
+          "address": "80 Trần Nhật Duật",
+          "lat": 21.03772,
+          "lng": 105.85298
+        },
+        {
+          "sourceKey": "busmap:hn:station:555",
+          "name": "Tổng cục Hải Quan",
+          "address": "162 Nguyễn Văn Cừ (cột sau)",
+          "lat": 21.042649,
+          "lng": 105.871032
+        },
+        {
+          "sourceKey": "busmap:hn:station:556",
+          "name": "358 Nguyễn Văn Cừ",
+          "address": "358 - 360 Nguyễn Văn Cừ",
+          "lat": 21.045683,
+          "lng": 105.875983
+        },
+        {
+          "sourceKey": "busmap:hn:station:3955",
+          "name": "Bến xe Gia Lâm",
+          "address": "Bến xe Gia Lâm",
+          "lat": 21.0482,
+          "lng": 105.878467
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "Tuyến 36 - [36] Long Biên - Yên Xá",
+      "color": "#795548",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:10",
+      "frequency": 25,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:1716",
+          "name": "(A) Long Biên - Tuyến 36",
+          "address": "Tuyến 36",
+          "lat": 21.042267,
+          "lng": 105.84855
+        },
+        {
+          "sourceKey": "busmap:hn:station:865",
+          "name": "Điểm trung chuyển Long Biên (E3.4)",
+          "address": "E3.4 Điểm trung chuyển Long Biên",
+          "lat": 21.041433,
+          "lng": 105.84925
+        },
+        {
+          "sourceKey": "busmap:hn:station:185",
+          "name": "50 Hàng Cót",
+          "address": "50 Hàng Cót",
+          "lat": 21.0372,
+          "lng": 105.847017
+        },
+        {
+          "sourceKey": "busmap:hn:station:186",
+          "name": "28 Đường Thành",
+          "address": "28 Đường Thành",
+          "lat": 21.031052,
+          "lng": 105.847104
+        },
+        {
+          "sourceKey": "busmap:hn:station:824",
+          "name": "Bệnh viện Phụ sản TW",
+          "address": "Đối diện số 4 Triệu Quốc Đạt",
+          "lat": 21.0266,
+          "lng": 105.847617
+        },
+        {
+          "sourceKey": "busmap:hn:station:177",
+          "name": "Bệnh viện Hữu Nghị Việt Nam - Cu Ba.",
+          "address": "37 Hai Bà Trưng - BV Việt Nam Cu Ba",
+          "lat": 21.025,
+          "lng": 105.850133
+        },
+        {
+          "sourceKey": "busmap:hn:station:33",
+          "name": "58B Bà Triệu",
+          "address": "đầu đường",
+          "lat": 21.0217037200928,
+          "lng": 105.850364685059
+        },
+        {
+          "sourceKey": "busmap:hn:station:34",
+          "name": "92-94 Bà Triệu",
+          "address": "92-94 Bà Triệu",
+          "lat": 21.0192,
+          "lng": 105.849416666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:35",
+          "name": "180 - 182 Bà Triệu",
+          "address": "180 - 182 Bà Triệu",
+          "lat": 21.015951,
+          "lng": 105.849215
+        },
+        {
+          "sourceKey": "busmap:hn:station:36",
+          "name": "Đối diện Vincom Tower",
+          "address": "Bà Triệu",
+          "lat": 21.0113,
+          "lng": 105.84905
+        },
+        {
+          "sourceKey": "busmap:hn:station:40",
+          "name": "216-218 Bạch Mai",
+          "address": "216-218 Bạch Mai",
+          "lat": 21.003983,
+          "lng": 105.851067
+        },
+        {
+          "sourceKey": "busmap:hn:station:41",
+          "name": "368-370 Bạch Mai",
+          "address": "368-370 Bạch Mai",
+          "lat": 21.000067,
+          "lng": 105.8505
+        },
+        {
+          "sourceKey": "busmap:hn:station:42",
+          "name": "512-514 Bạch Mai",
+          "address": "512-514 Bạch Mai",
+          "lat": 20.996783,
+          "lng": 105.850083
+        },
+        {
+          "sourceKey": "busmap:hn:station:817",
+          "name": "64 Trương Định",
+          "address": "64 Trương Định",
+          "lat": 20.99425,
+          "lng": 105.84965
+        },
+        {
+          "sourceKey": "busmap:hn:station:818",
+          "name": "194-196 Trương Định",
+          "address": "194-196 Trương Định",
+          "lat": 20.990517,
+          "lng": 105.847783
+        },
+        {
+          "sourceKey": "busmap:hn:station:819",
+          "name": "468 Trương Định",
+          "address": "468 Trương Định",
+          "lat": 20.985233,
+          "lng": 105.846317
+        },
+        {
+          "sourceKey": "busmap:hn:station:1933",
+          "name": "658 Trương Định",
+          "address": "658 Trương Định",
+          "lat": 20.981283,
+          "lng": 105.8453
+        },
+        {
+          "sourceKey": "busmap:hn:station:163",
+          "name": "Ga Giáp Bát - Giải phóng",
+          "address": "Ga Giáp Bát - Đối diện 1035 Giải Phóng",
+          "lat": 20.97616654936769,
+          "lng": 105.8407509326935
+        },
+        {
+          "sourceKey": "busmap:hn:station:164",
+          "name": "Ngã 3 Giải Phóng - Linh Đàm",
+          "address": "Đối diện 1251 Giải Phóng",
+          "lat": 20.971783,
+          "lng": 105.840767
+        },
+        {
+          "sourceKey": "busmap:hn:station:490",
+          "name": "Gần đường vào KĐT Đại Kim - Nguyễn Hữu Thọ",
+          "address": "45 Nguyễn Hữu Thọ",
+          "lat": 20.97105,
+          "lng": 105.8364
+        },
+        {
+          "sourceKey": "busmap:hn:station:491",
+          "name": "Đối diện đài tưởng niệm chủ tịch HCM - Nguyễn Hữu Thọ",
+          "address": "đường Nguyễn Hữu Thọ",
+          "lat": 20.96965,
+          "lng": 105.830983
+        },
+        {
+          "sourceKey": "busmap:hn:station:492",
+          "name": "Đối diện Công viên Bắc Linh Đàm",
+          "address": "Đối diện Công viên Bắc Linh Đàm",
+          "lat": 20.96746581091984,
+          "lng": 105.82658886909486
+        },
+        {
+          "sourceKey": "busmap:hn:station:4144",
+          "name": "Nhà CT3C X2 Bắc Linh Đàm",
+          "address": "Nhà CT3C X2 Bắc Linh Đàm",
+          "lat": 20.965467,
+          "lng": 105.8234
+        },
+        {
+          "sourceKey": "busmap:hn:station:276",
+          "name": "704 Kim Giang",
+          "address": "Xóm Chùa Nhĩ",
+          "lat": 20.965645,
+          "lng": 105.820372
+        },
+        {
+          "sourceKey": "busmap:hn:station:277",
+          "name": "Nhà văn hóa xã Thanh Liệt",
+          "address": "Kim Giang",
+          "lat": 20.963126,
+          "lng": 105.817274
+        },
+        {
+          "sourceKey": "busmap:hn:station:59661",
+          "name": "81 Thanh Liệt",
+          "address": "81 Thanh Liệt",
+          "lat": 20.961958,
+          "lng": 105.811852
+        },
+        {
+          "sourceKey": "busmap:hn:station:59662",
+          "name": "Trường THCS Chu Văn An",
+          "address": "Trường THCS Chu Văn An",
+          "lat": 20.966036,
+          "lng": 105.81546
+        },
+        {
+          "sourceKey": "busmap:hn:station:59663",
+          "name": "29 Manor 2 sunrise",
+          "address": "29 Manor 2 sunrise",
+          "lat": 20.970728,
+          "lng": 105.81163
+        },
+        {
+          "sourceKey": "busmap:hn:station:59664",
+          "name": "(B) Yên Xá",
+          "address": "(B) Yên Xá",
+          "lat": 20.969357,
+          "lng": 105.797974
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "name": "Tuyến 38 - [38] Tân Xuân - Mai Động",
+      "color": "#607D8B",
+      "status": "active",
+      "startTime": "05:00",
+      "endTime": "21:00",
+      "frequency": 20,
+      "price": 9000,
+      "stops": [
+        {
+          "sourceKey": "busmap:hn:station:59598",
+          "name": "A - Tân Xuân",
+          "address": "A - Tân Xuân",
+          "lat": 21.0869777,
+          "lng": 105.7858729
+        },
+        {
+          "sourceKey": "busmap:hn:station:3436",
+          "name": "Trường trung cấp nghề Thăng Long",
+          "address": "Tân Xuân (Chân cầu Thăng Long)",
+          "lat": 21.086812,
+          "lng": 105.785407
+        },
+        {
+          "sourceKey": "busmap:hn:station:922",
+          "name": "Đối diện C.ty thí nghiệm và xây dựng số 8 Thăng Long",
+          "address": "31 Tân Xuân (Chân cầu Thăng Long)",
+          "lat": 21.082717,
+          "lng": 105.7851
+        },
+        {
+          "sourceKey": "busmap:hn:station:599",
+          "name": "138 Phạm Văn Đồng",
+          "address": "138 Phạm Văn Đồng",
+          "lat": 21.074408,
+          "lng": 105.785667
+        },
+        {
+          "sourceKey": "busmap:hn:station:601",
+          "name": "Đối diện 343 Phạm Văn Đồng",
+          "address": "Đối diện 343 Phạm Văn Đồng",
+          "lat": 21.070585,
+          "lng": 105.785378
+        },
+        {
+          "sourceKey": "busmap:hn:station:600",
+          "name": "Trước 100m ngõ 218 Phạm Văn Đồng",
+          "address": "đối diện công viên Hòa Bình",
+          "lat": 21.062196,
+          "lng": 105.783753
+        },
+        {
+          "sourceKey": "busmap:hn:station:5161",
+          "name": "370 Phạm Văn Đồng",
+          "address": "370 Phạm Văn Đồng",
+          "lat": 21.0581,
+          "lng": 105.78255
+        },
+        {
+          "sourceKey": "busmap:hn:station:602",
+          "name": "Siêu thị Metro Thăng Long",
+          "address": "Đối diện ngõ 599 Phạm Văn Đồng",
+          "lat": 21.054733,
+          "lng": 105.781917
+        },
+        {
+          "sourceKey": "busmap:hn:station:603",
+          "name": "Đối diện 36A Phạm Văn Đồng (Vincom Bắc Từ Liêm)",
+          "address": "Đối diện 36A Phạm Văn Đồng",
+          "lat": 21.051595,
+          "lng": 105.781554
+        },
+        {
+          "sourceKey": "busmap:hn:station:5162",
+          "name": "Bộ Công An",
+          "address": "Phạm Văn Đồng",
+          "lat": 21.0476,
+          "lng": 105.781
+        },
+        {
+          "sourceKey": "busmap:hn:station:237",
+          "name": "Trạm trung chuyển xe buýt Hoàng Quốc Việt (cột trước)",
+          "address": "chiều đi Bưởi",
+          "lat": 21.045966,
+          "lng": 105.783533
+        },
+        {
+          "sourceKey": "busmap:hn:station:229",
+          "name": "Học viện Chính trị Quốc Gia Hồ Chí Minh",
+          "address": "Đối diện 108 Hoàng Quốc Việt",
+          "lat": 21.04609,
+          "lng": 105.788481
+        },
+        {
+          "sourceKey": "busmap:hn:station:230",
+          "name": "Cao đẳng sư phạm mẫu giáo Trung ương",
+          "address": "387 Hoàng Quốc Việt",
+          "lat": 21.046,
+          "lng": 105.7922
+        },
+        {
+          "sourceKey": "busmap:hn:station:231",
+          "name": "247-249 Hoàng Quốc Việt",
+          "address": "247-249 Hoàng Quốc Việt",
+          "lat": 21.046031,
+          "lng": 105.796345
+        },
+        {
+          "sourceKey": "busmap:hn:station:4087",
+          "name": "Công viên Nghĩa Đô",
+          "address": "Công viên Nghĩa Đô - Số 64 Nguyễn Văn Huyên",
+          "lat": 21.040917,
+          "lng": 105.797467
+        },
+        {
+          "sourceKey": "busmap:hn:station:500",
+          "name": "Đại học Thủ đô Hà Nội",
+          "address": "15B1 Nguyễn Khánh Toàn",
+          "lat": 21.037217,
+          "lng": 105.80145
+        },
+        {
+          "sourceKey": "busmap:hn:station:501",
+          "name": "Cầu Dịch Vọng",
+          "address": "Số 5 Nguyễn Khánh Toàn",
+          "lat": 21.03549,
+          "lng": 105.803737
+        },
+        {
+          "sourceKey": "busmap:hn:station:49",
+          "name": "Đối diện Công viên Thủ Lệ - Đường Bưởi dưới",
+          "address": "Đối diện Công viên Thủ Lệ - Đường Bưởi dưới",
+          "lat": 21.031433,
+          "lng": 105.802733
+        },
+        {
+          "sourceKey": "busmap:hn:station:64",
+          "name": "Điểm trung chuyển Cầu Giấy - ĐHGTVT (cột trước)",
+          "address": "Điểm trung chuyển Cầu Giấy - ĐHGTVT (cột trước)",
+          "lat": 21.028717,
+          "lng": 105.803667
+        },
+        {
+          "sourceKey": "busmap:hn:station:282",
+          "name": "593 - 595 Kim Mã",
+          "address": "593 - 595 Kim Mã",
+          "lat": 21.029424,
+          "lng": 105.808794
+        },
+        {
+          "sourceKey": "busmap:hn:station:283",
+          "name": "Ngã 3 Kim Mã - Trần Huy Liệu",
+          "address": "116 A5 Tập thể Giảng Võ - Kim Mã",
+          "lat": 21.030694,
+          "lng": 105.818767
+        },
+        {
+          "sourceKey": "busmap:hn:station:6074",
+          "name": "Trường THCS Giẳng Võ",
+          "address": "Trần Huy Liệu",
+          "lat": 21.028517,
+          "lng": 105.821417
+        },
+        {
+          "sourceKey": "busmap:hn:station:5838",
+          "name": "113 Giảng Võ",
+          "address": "113 Giảng Võ",
+          "lat": 21.02894617400439,
+          "lng": 105.82670152187347
+        },
+        {
+          "sourceKey": "busmap:hn:station:286",
+          "name": "Hè trước tòa nhà PTA",
+          "address": "Số 1 Kim Mã",
+          "lat": 21.0322666168213,
+          "lng": 105.829475402832
+        },
+        {
+          "sourceKey": "busmap:hn:station:530",
+          "name": "145 Nguyễn Thái Học",
+          "address": "145 Nguyễn Thái Học",
+          "lat": 21.031117,
+          "lng": 105.83365
+        },
+        {
+          "sourceKey": "busmap:hn:station:531",
+          "name": "Trường Tiểu Học Lý thường Kiệt - Ngã 3 Hoàng Diệu",
+          "address": "85 Nguyễn Thái Học - TH Lý Thường Kiệt",
+          "lat": 21.029533,
+          "lng": 105.83895
+        },
+        {
+          "sourceKey": "busmap:hn:station:396",
+          "name": "59 Lý Thường Kiệt",
+          "address": "Viện Năng Lương Nguyên tử",
+          "lat": 21.0239591063536,
+          "lng": 105.847880175616
+        },
+        {
+          "sourceKey": "busmap:hn:station:33",
+          "name": "58B Bà Triệu",
+          "address": "đầu đường",
+          "lat": 21.0217037200928,
+          "lng": 105.850364685059
+        },
+        {
+          "sourceKey": "busmap:hn:station:34",
+          "name": "92-94 Bà Triệu",
+          "address": "92-94 Bà Triệu",
+          "lat": 21.0192,
+          "lng": 105.849416666667
+        },
+        {
+          "sourceKey": "busmap:hn:station:35",
+          "name": "180 - 182 Bà Triệu",
+          "address": "180 - 182 Bà Triệu",
+          "lat": 21.015951,
+          "lng": 105.849215
+        },
+        {
+          "sourceKey": "busmap:hn:station:36",
+          "name": "Đối diện Vincom Tower",
+          "address": "Bà Triệu",
+          "lat": 21.0113,
+          "lng": 105.84905
+        },
+        {
+          "sourceKey": "busmap:hn:station:40",
+          "name": "216-218 Bạch Mai",
+          "address": "216-218 Bạch Mai",
+          "lat": 21.003983,
+          "lng": 105.851067
+        },
+        {
+          "sourceKey": "busmap:hn:station:41",
+          "name": "368-370 Bạch Mai",
+          "address": "368-370 Bạch Mai",
+          "lat": 21.000067,
+          "lng": 105.8505
+        },
+        {
+          "sourceKey": "busmap:hn:station:42",
+          "name": "512-514 Bạch Mai",
+          "address": "512-514 Bạch Mai",
+          "lat": 20.996783,
+          "lng": 105.850083
+        },
+        {
+          "sourceKey": "busmap:hn:station:5768",
+          "name": "32 Minh Khai",
+          "address": "32 Minh Khai",
+          "lat": 20.99575,
+          "lng": 105.850617
+        },
+        {
+          "sourceKey": "busmap:hn:station:406",
+          "name": "218-220 Minh Khai",
+          "address": "218-220 Minh Khai",
+          "lat": 20.995359,
+          "lng": 105.854673
+        },
+        {
+          "sourceKey": "busmap:hn:station:407",
+          "name": "308 Minh Khai (Gần cầu Mai Động)",
+          "address": "308 Minh Khai",
+          "lat": 20.995634933097907,
+          "lng": 105.86098551750185
+        },
+        {
+          "sourceKey": "busmap:hn:station:661",
+          "name": "Cách cổng Công ty cơ khí Trần Hưng Đạo 40m",
+          "address": "18 Tam Trinh",
+          "lat": 20.992183,
+          "lng": 105.8624
+        },
+        {
+          "sourceKey": "busmap:hn:station:528",
+          "name": "Đối diện 303 Nguyễn Tam Trinh",
+          "address": "Đối diện 303 Nguyễn Tam Trinh",
+          "lat": 20.987583,
+          "lng": 105.863383
+        },
+        {
+          "sourceKey": "busmap:hn:station:529",
+          "name": "Đối diện 411 Nguyễn Tam Trinh",
+          "address": "Đối diện 411 Nguyễn Tam Trinh",
+          "lat": 20.984233,
+          "lng": 105.863767
+        },
+        {
+          "sourceKey": "busmap:hn:station:1772",
+          "name": "(B) Mai Động",
+          "address": "Tuyến 38",
+          "lat": 20.98269,
+          "lng": 105.863434
+        }
+      ]
+    }
+  ]
+}

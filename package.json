@@ -1,0 +1,31 @@
+{
+  "name": "transitflow",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently --names SERVER,CLIENT --prefix-colors blue,cyan \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:https": "concurrently --names SERVER,CLIENT,HTTPS --prefix-colors blue,cyan,green \"npm run dev:server\" \"npm run dev:client\" \"npm run tunnel:https\"",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "db:start": "docker compose up -d --wait mongodb",
+    "db:stop": "docker compose stop mongodb",
+    "setup:local": "npm run setup:local --workspace=server",
+    "setup:docker": "npm run db:start && npm run setup:local",
+    "data:manifest": "npm run data:manifest --workspace=server",
+    "tunnel:https": ".\\.tools\\cloudflared.exe tunnel --url http://localhost:3000 --no-autoupdate",
+    "build": "npm run build --workspace=server && npm run build --workspace=client",
+    "benchmark:journey": "npm run benchmark:journey --workspace=server",
+    "sync:data": "npm run sync:data --workspace=server",
+    "sync:data:dry": "npm run sync:data:dry --workspace=server",
+    "verify:data": "npm run verify:data --workspace=server",
+    "restore:route": "npm run restore:route --workspace=server --",
+    "install:all": "npm install && npm install --workspace=server && npm install --workspace=client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

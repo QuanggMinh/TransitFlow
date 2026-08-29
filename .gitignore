@@ -1,0 +1,29 @@
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# Dependencies
+node_modules/
+
+# Environment files (keep templates)
+.env
+.env.*
+!.env.example
+
+# Build and test output
+dist/
+build/
+coverage/
+
+# Local tools, logs, editor/agent state, and backups
+.tools/
+.undo/
+.claude/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

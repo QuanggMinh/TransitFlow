@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opt-out of Chrome forced dark mode — our own dark: classes handle it */
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+.dark body {
+  background-color: #111827;
+}
+
+/* Chấm GPS pulsing */
+.user-location-dot {
+  width: 16px;
+  height: 16px;
+  background: #3b82f6;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6);
+  animation: gps-pulse 2s infinite;
+}
+
+@keyframes gps-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6); }
+  70%  { box-shadow: 0 0 0 14px rgba(59, 130, 246, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
