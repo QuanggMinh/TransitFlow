@@ -23,7 +23,13 @@ coverage/
 .undo/
 .claude/
 *.log
+.docs/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Testing
+load-test.mjs
+auth-test.mjs
+large-test.mjs
